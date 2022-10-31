@@ -1,0 +1,35 @@
+﻿@model List<IdentityRole>
+
+    @{
+    ViewData["Title"] = "Index";
+}
+
+ <div class="col-md-12 grid-margin stretch-card">
+<div class="container align-items-center text-center"> 
+    <div class="d-flex justify-content-center align-items-center text-center">
+        <h1>Roles</h1>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="row">#</th>
+                <th scope="col">RoleName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.Name</td>
+                    <td>
+                        <a asp-action="edit" asp-controller="role" asp-route-name="@role.Name" class="btn btn-warning">Edit</a>
+                        <a asp-action="delete" asp-controller="role" asp-route-name="@role.Name" class="btn btn-danger btn-role-delete">Delete</a>
+                         <a asp-action="create" asp-controller="role" class="btn btn-primary">Create</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+</div>

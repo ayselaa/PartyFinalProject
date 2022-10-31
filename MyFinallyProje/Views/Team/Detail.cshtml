@@ -1,0 +1,85 @@
+﻿  
+      
+@model Team
+    
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center" style="background-image: url('/assets/img/contact/contact.jpg')">
+                    <div class="title-box text-center"> 
+                        <div class="contact-title">
+                            <h1 >@Model.Title</h1>
+                        </div>
+                        <div class="breadcrumb-wrapper">
+                            <div class="container">
+                                <span><a class="text-white" title="Homepage" href="index.html"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                                <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                                <span><a title="" href="our-team.html" class="text-white">Team</a></span>
+                                <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                                <span class="text-white">Simay Aliyeva</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+             </div>
+
+             <div class="container mb-5">
+                <div class="row d-flex flex-wrap mt-5">
+
+
+
+
+                    @foreach (var detail in Model.TeamImage.Where(n => n.TeamId== Model.Id))
+                   {
+
+
+                    <div class="col-md-5 col-lg-5">
+
+                     <div class="simaysekil">
+                        <img class="img-fluid" src="~/assets/img/team/@detail.Image.Url" height="100%" width="100%">
+                     </div>
+
+                    </div>
+                    <div class="ttm-team-member-single-content-area col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                        <div class="ttm-team-member-content">
+                         <div id="melumatlar">
+                           <h2>@Model.Title</h2>
+                           <h5 >@Model.Job</h5>
+                           <div class="ttm-team-details-wrapper">
+                            <ul class="ttm-team-details-list clearfix">
+                                <li>
+                                    <div class="simayicon ml-5 font-weight-bold">
+                                        <i class="fa-solid fa-phone"></i> Phone :
+                                    </div>
+                                    <div class="ttm-team-list-value">
+                                        <a class="text-dark" href="tel:+1800200145" tabindex="0">@Model.Number</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="simayicon ml-5 font-weight-bold">
+                                        <i class="fa-solid fa-envelope"></i> Email :
+                                    </div>
+                                    <div class="ttm-team-list-value">
+                                        <a class="text-dark"  href="mailto:info@example.com" tabindex="0">@Model.Email</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="simayicon ml-5 font-weight-bold">
+                                        <i class="fa-solid fa-location-dot"></i> Address Info :
+                                    </div>
+                                    <div class="ttm-team-list-value">@Model.Address</div>
+                                </li>
+                            </ul>
+                           </div>
+                         </div>
+                        </div>
+                    </div>
+                       
+                    }
+
+
+
+                </div>
+             </div>
+

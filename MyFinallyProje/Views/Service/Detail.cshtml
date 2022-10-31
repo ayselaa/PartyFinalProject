@@ -1,0 +1,57 @@
+﻿@model Service
+<main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+                <div class="ttm-page-title-row text-center" style="background-image: url('/assets/img/Uploads/@Model.ServiceImage.ElementAt(0).Image.Url')" >
+                <div class="title-box text-center"> 
+                    <div class="contact-title">
+                     <h1>@Model.Title</h1>
+                    </div>
+                    <div class="breadcrumb-wrapper">
+                      <div class="container">
+                          <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                          <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                          <span><a title="" asp-action="details"  asp-controller="service" class="text-white">Service Details</a></span>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="container">
+        <div class="row">
+            <div data-aos="fade-right" style="margin-left: 28%" class=" d-flex flex-wrap mt-5">
+                @foreach (var serviceImage in @Model.ServiceImage.Where(n => n.ServiceId== Model.Id))
+               {
+                    <div class="col-lg-6">
+                        <div class="serviceholl pt-4">   
+                            <img class="img-fluid" src="~/assets/img/Uploads/@serviceImage.Image.Url">
+                        <div class="img-text2">
+                          <h4>Concept</h4>
+                          <p>Azerbaijan, Baku</p>
+                        </div>
+                        </div>
+                        
+
+                         <div class="textsssssssssssss" style="color: #9c2a70">
+                            <h1> event attendees can be difficult – and blowing them away is even harder.</h1>
+                         </div>
+                          <div class="details-texts mt-2 text-muted">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi aliquid mollitia<br>
+                                  error! Et vitae excepturi error incidunt. Suscipit maiores placeat hic sequi<br>
+                                  reiciendis ipsam, odit quis consequatur id sit perspiciatis atque odio minus<br>
+                                  tempora esse modi officiis facere rerum dolorem. Voluptates recusandae quia cum iusto.<br>
+                                   Expedita eos accusantium adipisci eius.</p><br>
+ 
+                             <p>At Cole, Scott & Kissane, P.A. our commitment to a diverse law firm and inclusive <br>
+                                     work environment is paramount to the success of our firm and our communities.</p><br>
+                          </div>
+              
+                    </div>
+               }
+           </div>
+        </div>
+      </div>
+</main>

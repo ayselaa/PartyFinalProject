@@ -1,0 +1,53 @@
+﻿
+@model Team
+
+
+<div class="container">
+    <div class="row">
+         <div class="col-md-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"> Update - Team</h4>
+               
+                  <form method="post" asp-area="admin" asp-controller="team" asp-action="update" class="forms-sample">
+
+                      
+                    <div class="form-group">
+                      <label asp-for="Title" >Title</label>
+                      <input asp-for="Title" class="form-control" placeholder="Title">
+                    </div>
+
+                    <div class="form-group">
+                      <label  asp-for="Address" >Address</label>
+                      <input  asp-for="Address" class="form-control" placeholder="Address">
+                    </div>
+
+                    <div class="form-group">
+                      <label asp-for="Email" >Email</label>
+                      <input asp-for="Email" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                      <label asp-for="Job" >Job</label>
+                      <input asp-for="Job" class="form-control" placeholder="Job">
+                    </div>
+
+                     <div class="form-group">
+                      <label asp-for="Number" >Number</label>
+                      <input asp-for="Number" class="form-control" placeholder="Number">
+                    </div>
+
+                         <div class="form-group">
+                        <label  asp-for="ImageFile">Choose Image File dana</label>
+                        <input asp-for="ImageFile" accept="image/*" class="form-control btn btn-info" multiple="true">
+                        </div>
+         
+                 <button type="submit" class="btn btn-success mr-2">Submit</button>
+                 <button asp-controller="team" asp-action="index" class="btn btn-light">Cancel</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+    </div>
+</div>
+

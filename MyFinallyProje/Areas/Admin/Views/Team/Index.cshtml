@@ -1,0 +1,96 @@
+﻿@model List<Team>
+
+    
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Team</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="dashboard" asp-action="index">Go Back</a>
+                <a class="btn btn-danger text-white" asp-area="admin" asp-controller="team" asp-action="create">Create</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Image
+                            </th>
+
+                            <th>
+                                Title
+                            </th>
+
+                            <th>
+                                Address
+                            </th>
+
+                             <th>
+                                Email
+                            </th>
+
+                             <th>
+                                Job
+                            </th>
+
+                            <th>
+                                Number
+                            </th>
+                         
+                             <th>
+                                Settings
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var team in Model)
+                       {
+                               <tr>
+                                   @foreach (var item in team.TeamImage)
+                                  {
+                                <td class="py-1">
+                                   <img width="100"  src="~/assets/img/team/@team.TeamImage.Where(n => n.TeamId == team.Id).FirstOrDefault().Image.Url" alt="image">
+                                </td>    
+                                  }
+                                <td>
+                                   @team.Title
+                                </td>
+
+                                 <td>
+                                   @team.Address
+                                </td>
+
+                                <td>
+                                   @team.Email
+                                </td>
+
+                                 <td>
+                                   @team.Job
+                                </td>
+
+                                 <td>
+                                   @team.Number
+                                </td>
+
+
+                                 
+                                 
+                                 <td>
+                                    <a asp-area="admin" asp-controller="team" asp-action="details" asp-route-id="@team.Id" class="btn btn-primary">Details</a>
+                                    <a asp-area="admin" asp-controller="team" asp-action="update"  asp-route-id="@team.Id" class="btn btn-warning mt-1">Update</a>
+                                    <a asp-area="admin" asp-controller="team" asp-action="delete"  asp-route-id="@team.Id" class="btn btn-danger m-1">Delete</a>
+                                </td>
+
+
+                            </tr>
+                       }
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

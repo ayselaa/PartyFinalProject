@@ -1,0 +1,78 @@
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Final-main\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.deps.json
+C:\Users\ASUS\Desktop\Final-main\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.json
+C:\Users\ASUS\Desktop\Final-main\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Final-main\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\Final-main\Exceptions\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\Final-main\Exceptions\obj\Debug\netcoreapp3.1\Exceptions.genruntimeconfig.cache

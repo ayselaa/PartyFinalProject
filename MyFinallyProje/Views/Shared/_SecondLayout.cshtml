@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Event Plan</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3~/assets/css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="~/assets/vendor/css/slick.css">
+    <link rel="stylesheet" href="~/assets/vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="~/assets/vendor/css/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <link rel="stylesheet" href="~/assets/css/navbar.css">
+
+    <link rel="stylesheet" href="~/assets/css/blog.css">
+
+    <link rel="stylesheet" href="~/assets/css/team.css">
+
+    <link rel="stylesheet" href="~/assets/css/comment.css">
+
+    <link rel="stylesheet" href="~/assets/css/shop-details.css">
+
+    <link rel="stylesheet" href="~/assets/css/contact.css">
+
+    <link rel="stylesheet" href="~/assets/css/login.css">
+
+    <link rel="stylesheet" href="~/assets/css/premumservice.css">
+
+    <link rel="stylesheet" href="~/assets/css/product.css">
+
+    <link rel="stylesheet" href="~/assets/css/card.css">
+
+    <link rel="stylesheet" href="~/assets/css/service-details.css">
+    <link rel="stylesheet" href="~/assets/vendor/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/~/assets/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section id="Menu rghebvroh">
+            <nav class="navbar navbar-expand-lg navbar-light hhjnjt3gntktbg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" asp-action="index" asp-controller="home">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active  text-white" aria-current="page" asp-action="index" asp-controller="about">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" asp-action="index" asp-controller="service">Event</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" asp-action="index" asp-controller="blog">Blog</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" asp-action="index" asp-controller="team">Team</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" asp-action="index" asp-controller="shop">Shop</a>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle  text-white" asp-action="index" asp-controller="home" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Account
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <li><a class="dropdown-item">@User.Identity.Name</a></li>
+                                        <li><a class="dropdown-item" asp-action="Logout" asp-controller="account">Logout</a></li>
+
+                                    }
+                                    else
+                                    {
+                                        <li><a class="dropdown-item" asp-action="login" asp-controller="account">Login</a></li>
+                                        <li><a class="dropdown-item" asp-action="register" asp-controller="account">Register</a></li>
+
+                                    }
+
+
+                                    <li><hr class="dropdown-divider"></li>
+                                </ul>
+
+                            <li class="nav-item">
+                                <a class="nav-link active  text-white" aria-current="page" asp-action="index" asp-controller="contact">Contact</a>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+        </section>
+    </header>
+    @RenderBody()
+    <footer class="yeniclassss mt-5">
+        <section id="Footer">
+            <div class="container">
+                <div class="footer-container row justify-content-between text-center">
+                    <div data-aos="fade-right" class="col-md-4 footer-left">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="text-white mt-3">Baku, Azerbaijan </p>
+                    </div>
+                    <div data-aos="flip-down" class="col-md-4 footer-mid">
+                        <h2>Join Us?</h2>
+                    </div>
+                    <div data-aos="fade-left" class="col-md-4 footer-right">
+                        <button type="button" class="btn btnDig">CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Footer1">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div data-aos="fade-right" class="col-md-6 col-12 footer1">
+                        <h4>Baku</h4>
+                        <p>+994 503456789</p>
+                    </div>
+                    <div data-aos="fade-left" class="col-md-6 col-12 footer1">
+                        <p class="mt-4">abilovaysel@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="Footer3">
+            <div class="container">
+                <div class="footer3-container row justify-content-between ">
+                    <div class="col-12 col-md-6 footer3-left text-center">
+                        <p>2022 © <span>Event Agency</span></p>
+                    </div>
+                    <div class="col-12 col-md-6 row footer3-right text-center ">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="~/assets/vendor/js/jquery-3.4.1.js">
+    </>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="~/assets/vendor/js/slick.js"></script>
+<script src="~/assets/js/app.js"></script>
+<script src="~/assets/js/card.js"></script>
+</html>
+
+
+

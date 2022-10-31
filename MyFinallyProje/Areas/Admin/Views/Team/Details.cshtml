@@ -1,0 +1,75 @@
+﻿@model Team
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Team</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="team" asp-action="index">Go Back</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Title
+                            </th>
+                            <th>
+                               Address
+                            </th>
+                            <th>
+                                Email
+                            </th>
+                              <th>
+                                Job
+                            </th>
+                              <th>
+                                Number
+                            </th>
+                              <th>
+                                Setting
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                              <tr>
+                                 <td>
+                                   <img width="100"  src="~/assets/img/team/@Model.TeamImage.Where(n => n.TeamId == Model.Id).FirstOrDefault().Image.Url" alt="image">
+                                 </td>
+
+                                  <td>
+                                    @Model.Title
+                                  </td>
+
+                                   <td>
+                                    @Model.Address
+                                  </td>
+
+                                   <td>
+                                    @Model.Email
+                                  </td>
+                                   <td>
+                                    @Model.Job
+                                  </td>
+                                    <td>
+                                    @Model.Number
+                                  </td>
+                                    
+                                   <td>
+      
+                                    <a asp-area="admin" asp-controller="team" asp-action="update" asp-route-id="@Model.Id" class="btn btn-warning mt-1">Update</a>
+                                    <a asp-area="admin" asp-controller="team" asp-action="details" asp-route-id="@Model.Id" class="btn btn-danger m-1">Delete</a>
+
+                                  </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

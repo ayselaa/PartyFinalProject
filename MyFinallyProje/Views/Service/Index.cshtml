@@ -1,0 +1,154 @@
+﻿@model ServiceVM
+
+
+@inject UserManager<AppUser> userManager
+
+@{
+    AppUser member = User.Identity.IsAuthenticated ? userManager.Users.FirstOrDefault(x => x.UserName == User.Identity.Name && !x.IsAdmin) : null;
+}
+<main>
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center" style="background: url('./assets/img/contact/contact.jpg') ">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>OUR EVENTS</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container">
+                        <span><a class="text-white" title="Homepage" href="index.html"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" href="our-team.html" class="text-white">Event</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="Services">
+        <div class="container">
+            <div data-aos="flip-up" class="services-text ml-4 mb-5">
+                <hr>
+                <h2>EVENTS.</h2>
+                <h4>WE PLAN THE BEST EVENTS!</h4>
+            </div>
+            <div data-aos="fade-left" class="navbar">
+                @foreach (var item in Model.ServiceDetails)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="middle row justify-content-between">
+                            <div class="col-text">
+                                <h5>@item.Content</h5>
+                            </div>
+                            <div class="col-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row aysel1234">
+                <div class="row salam1234 text-center justify-content-center">
+                    <div class="premum-title">
+                        <h4>WHAT WE DO</h4>
+                        <h2>Get Premium Our Services</h2>
+                    </div>
+                    <div class="pteqi">
+                        <p>We have a huge range of suppliers and contacts in the industry that work closely with us to not <br> only ensure you get the wedding day.</p>
+
+                    </div>
+                </div>
+                <div class="row d-flex flex-wrap m-5">
+                    <div class="col-md-6">
+                        <div class="seconthisse" style="margin-left: 25%">
+                            <div class="seconthisse-title">
+                                <h5><i class="fa-solid fa-wine-bottle"></i>Face Grim</h5>
+                            </div>
+                            <div class="secondhisse-des">
+                                <p>Lorem Ipsum is simply dummy <br> text of the printing and typendard <br>nknown.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="seconthisse" style="margin-left: 20%">
+                            <div class="seconthisse-title">
+                                <h5><i class="fa-solid fa-masks-theater"></i>Drink & Pizza</h5>
+                            </div>
+                            <div class="secondhisse-des">
+                                <p>Lorem Ipsum is simply dummy <br> text of the printing and typendard <br>nknown.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @*  comment area start
+    *@   <div class="container">
+        <div class="row d-block flex-wrap justify-content-center coment-row-hisse">
+            <div class="comment-area ml-5 mt-5 ">
+                <h4 class="usercomment-title text-dark">User Comment</h4>
+                <div class="comment-innerr">
+
+
+                    <div class="ltn__comment-reply-area ltn__form-box mb-30">
+                        <form asp-controller="service" asp-action="addcomment" method="post" style="margin-left: 3%">
+                            <h4>Add a Review</h4>
+                            <div class="mb-30">
+                                <div class="add-a-review">
+                                    <h6> Add your comment...</h6>
+                                </div>
+                            </div>
+                            <div class="input-item input-item-textarea ltn__custom-icon">
+                                <textarea placeholder="Type your comments...." asp-for="Comment.Text"></textarea>
+                            </div>
+                            <div class="input-item input-item-name ltn__custom-icon">
+                                <input type="text" placeholder="Type your name...." asp-for="Comment.AppUser" value="@(User.Identity.IsAuthenticated?member.UserName:"")">
+                            </div>
+
+                            <label class="mb-0 mt-2"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label>
+                            <div class="btn-wrapper">
+                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <hr>
+                    @*         comment area end
+                    *@
+
+
+
+                    <!-- comment-reply -->
+                  
+
+
+                    <ul class="ul-class">
+                        @foreach (var prop in Model.Comments)
+                        {
+                            <li class="li-class">
+                                <div class="comment-item">
+                                    <div class="comment-yazan">
+                                        <h6 class="mt-2"><a>@prop.AppUser.UserName</a></h6>
+                                        <span class="comment-tarix">@prop.CreatedDate</span>
+                                        <p>@prop.Text</p>
+                                    </div>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                    <hr>
+                   </div>
+                   </div>
+            <!-- Comment hisse son -->
+        </div>
+    </div>
+    <hr>
+</main>

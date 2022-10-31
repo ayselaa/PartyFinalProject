@@ -1,0 +1,71 @@
+﻿@model List<Product>
+
+    
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Products</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="dashboard" asp-action="index">Go Back</a>
+                <a class="btn btn-danger text-white" asp-area="admin" asp-controller="product" asp-action="create">Create</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Title
+                            </th>
+                            <th>
+                                Body
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                         
+                              <th>
+                                Settings
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var product in Model)
+                       {
+                               <tr>
+                                     @foreach (var item in product.ProductImage)
+                                  {
+                                <td class="py-1">
+                                   <img width="100"  src="~/assets/uploads/images/@product.ProductImage.Where(n => n.ProductId == product.Id).FirstOrDefault().Image.Url" alt="image">
+                               </td>    
+                                  }
+                                <td>
+                                   @product.Title
+                                </td>
+                                <td>
+                                   @product.Description
+                                </td>
+                                 <td>
+                                    @product.Price  
+                                </td>
+                                 
+                                 <td>
+                                    <a asp-area="admin" asp-controller="product" asp-action="details" asp-route-id="@product.Id" class="btn btn-primary">Details</a>
+                                    <a asp-area="admin" asp-controller="product" asp-action="update"  asp-route-id="@product.Id" class="btn btn-warning mt-1">Update</a>
+                                    <a asp-area="admin" asp-controller="product" asp-action="delete"  asp-route-id="@product.Id" class="btn btn-danger m-1">Delete</a>
+                                </td>
+                               </tr>
+                                 
+                     
+                       }
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

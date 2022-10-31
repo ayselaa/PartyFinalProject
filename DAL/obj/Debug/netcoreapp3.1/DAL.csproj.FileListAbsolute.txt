@@ -1,0 +1,78 @@
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Final-main\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ASUS\Desktop\Final-main\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\Final-main\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Final-main\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\Final-main\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\Final-main\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache

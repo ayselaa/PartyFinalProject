@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Belleza&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,200&family=Quicksand&display=swap");
+.coment-row-hisse {
+  background-color: #e9f1ee;
+  display: inline;
+}
+
+.usercomment-title {
+  font-family: 'Belleza', sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  color: #6e6161;
+}
+
+.comment-yazan {
+  border: 5px 5px 5px 5px;
+  color: black;
+  border: solid 1px #c9b6b6;
+  margin-left: 10px;
+  background: white;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.comment-yazan a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  margin-left: 1px;
+}
+
+.comment-yazan span {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.comment-yazan p {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  color: #474646;
+  margin-top: 20px;
+}
+
+.comment-yazan h6 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.comment-innerr ul {
+  list-style: none;
+}
+
+hr {
+  color: #e7d8d8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid;
+}
+
+.comment-write h4 {
+  font-family: 'Belleza', sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  color: #6e6161;
+}
+
+textarea {
+  width: 574px;
+  overflow: auto;
+  resize: vertical;
+  min-height: 150px;
+  border: solid 10px white;
+  margin-bottom: 20px;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+.comment-inputs i {
+  position: absolute;
+  right: 47%;
+  color: red;
+  transform: translate(-50%);
+  margin-top: 15px;
+}
+
+.comment-user-name input {
+  width: 574px;
+  overflow: auto;
+  resize: vertical;
+  min-height: 54px;
+  border: solid 10px white;
+  margin-bottom: 20px;
+}
+
+.comment-user-name input:focus-visible {
+  outline: none;
+}
+
+.comment-user-email input {
+  width: 574px;
+  overflow: auto;
+  resize: vertical;
+  min-height: 54px;
+  border: solid 10px white;
+  margin-bottom: 20px;
+}
+
+.comment-user-email input:focus-visible {
+  outline: none;
+}
+
+.comment-user-website input {
+  width: 574px;
+  overflow: auto;
+  resize: vertical;
+  min-height: 54px;
+  border: solid 10px white;
+  margin-bottom: 20px;
+}
+
+.comment-user-website input:focus-visible {
+  outline: none;
+}
+
+.comment-user-name i {
+  position: absolute;
+  right: 47%;
+  color: red;
+  transform: translate(-50%);
+  margin-top: 15px;
+}
+
+.comment-user-website i {
+  position: absolute;
+  right: 47%;
+  color: red;
+  transform: translate(-50%);
+  margin-top: 15px;
+}
+
+.comment-user-email i {
+  position: absolute;
+  right: 47%;
+  color: red;
+  transform: translate(-50%);
+  margin-top: 15px;
+}
+
+.btn {
+  color: white;
+  background: #fa053e;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=comment.css.map */

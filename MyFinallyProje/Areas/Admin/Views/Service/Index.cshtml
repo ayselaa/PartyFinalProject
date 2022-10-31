@@ -1,0 +1,47 @@
+﻿@model List<Service>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Services</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="dashboard" asp-action="index">Go Back</a>
+                <a class="btn btn-danger text-white" asp-area="admin" asp-controller="service" asp-action="create">Create</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+
+                            <th>
+                                Title
+                            </th>      
+                            
+                              <th>
+                                Settings
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var service in Model)
+                       { 
+                               <tr>
+                                <td>
+                                   @service.Title
+                                </td>
+                                 
+                                 <td>
+                                    <a asp-area="admin" asp-controller="service" asp-action="details" asp-route-id="@service.Id" class="btn btn-primary">Details</a>
+                                    <a asp-area="admin" asp-controller="service" asp-action="update"  asp-route-id="@service.Id" class="btn btn-warning mt-1">Update</a>
+                                    <a asp-area="admin" asp-controller="service" asp-action="delete"  asp-route-id="@service.Id" class="btn btn-danger m-1">Delete</a>
+                                </td>
+                            </tr>
+                       }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\Final-main\Business\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\Final-main\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache

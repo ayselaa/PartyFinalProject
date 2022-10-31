@@ -1,0 +1,744 @@
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.exe
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.deps.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\staticwebassets\MyFinallyProje.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Card\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\login.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SecondLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.exe
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\staticwebassets\MyFinallyProje.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\login.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Card\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SecondLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Edit.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.exe
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.deps.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\staticwebassets\MyFinallyProje.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Edit.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\login.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SecondLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ASP\myfinalproject\enter project\final\MyFinallyProje\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.exe
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.deps.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\staticwebassets\MyFinallyProje.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Edit.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\login.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SecondLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CopyComplete
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\final\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.exe
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.deps.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\staticwebassets\MyFinallyProje.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Edit.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\login.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SecondLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CopyComplete
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\ErrorPage.cshtml.g.cs
+C:\Users\ASUS\Desktop\final\enter\FinalCodeProject-mm\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ErrorPageLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.exe
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.deps.json
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.json
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Exceptions.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\staticwebassets\MyFinallyProje.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Edit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Create.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Team\Update.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\login.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\ErrorPage.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ErrorPageLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SecondLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Detail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.Views.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache

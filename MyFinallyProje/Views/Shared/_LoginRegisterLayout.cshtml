@@ -1,0 +1,185 @@
+﻿
+@inject LayoutService layoutservices;
+
+
+
+<!DOCTYPE html>
+<html lang="en" style="overflow-x:hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Event Plan</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3~/assets/css/4/w3.css">
+    <link rel="stylesheet" href="~/assets/vendor/css/slick.css">
+    <link rel="stylesheet" href="~/assets/vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/assets/vendor/css/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <link rel="stylesheet" href="~/assets/css/navbar.css">
+
+    <link rel="stylesheet" href="~/assets/css/blog.css">
+
+    <link rel="stylesheet" href="~/assets/css/team.css">
+
+    <link rel="stylesheet" href="~/assets/css/comment.css">
+
+    <link rel="stylesheet" href="~/assets/css/card.css">
+
+    <link rel="stylesheet" href="~/assets/css/contact.css">
+
+    <link rel="stylesheet" href="~/assets/css/login.css">
+
+    <link rel="stylesheet" href="~/assets/css/premumservice.css">
+
+    <link rel="stylesheet" href="~/assets/css/product.css">
+
+    <link rel="stylesheet" href="~/assets/css/service.css">
+
+    <link rel="stylesheet" href="~/assets/css/service-details.css">
+
+    <script src="https://kit.fontawesome.com/e0f20ffb07.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="body" style="background-image: url(../assets/img/aysel.gif)">
+    <header>
+        <section id="Menu rghebvroh">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid mt-3">
+
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <i style="font-size:150%;" class="fa-solid fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-3">
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" asp-action="index" asp-controller="home">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class=" nav-link  text-white" aria-current="page" asp-action="index" asp-controller="about">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class=" nav-link text-white" aria-current="page" asp-action="index" asp-controller="service">Event</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" asp-action="index" asp-controller="blog">Blog</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" asp-action="index" asp-controller="team">Team</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" asp-action="index" asp-controller="shop">Shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" asp-action="index" asp-controller="contact">Contact</a>
+                            </li>
+
+
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" asp-action="index" asp-controller="home" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Account
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <li><a class="dropdown-item" asp-action="Logout" asp-controller="account">Logout</a></li>
+                                        <li><a class="dropdown-item">@User.Identity.Name</a></li>
+
+                                    }
+                                    else
+                                    {
+                                        <li><a class="dropdown-item" asp-action="login" asp-controller="account">Login</a></li>
+                                        <li><a class="dropdown-item" asp-action="register" asp-controller="account">Register</a></li>
+
+                                    }
+                                    <li><hr class="dropdown-divider"></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <form class="d-flex tgjnkbnr">
+                        <ul class="navbar-right">
+                            <li class="fjnekjr"><a id="cart"><i class="fa fa-shopping-cart"></i>  <span class="badge">3</span></a></li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>
+
+
+
+
+
+            <div class="container">
+                <div class="shopping-cart">
+                    <div class="shopping-cart-header">
+                        <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">3</span>
+                        <div class="shopping-cart-total">
+                            <span class="lighter-text">Total:</span>
+                            <span class="main-color-text">
+                                @{
+                                    double total = 0;
+
+
+                                    foreach (BasketVM basketVM in layoutservices.GetBasket())
+                                    {
+                                        total += (basketVM.Count * basketVM.Price);
+                                    }
+                                }
+                                $@total.ToString("F2")
+                            </span>
+                        </div>
+                    </div>
+
+                    <ul class="shopping-cart-items">
+
+                        @foreach (BasketVM basketVM in layoutservices.GetBasket())
+                        {
+                            <li class="clearfix">
+                                <img src="~/assets/uploads/images/@basketVM.ProductImage.Image.Url" alt="item1" />
+                                <div class=''>
+                                    <span class="item-name d-inline-block">@basketVM.Title</span>
+                                    <p> <span class="item-quantity d-inline-block">@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
+                                </div>
+                            </li>
+
+                        }
+                    </ul>
+                    <a asp-action="index" asp-controller="basket" class="button">View Card</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    @RenderBody()
+   
+</body>
+
+<script src="~/assets/vendor/js/jquery-3.4.1.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="~/assets/vendor/js/slick.js"></script>
+<script src="~/assets/js/app.js"></script>
+<script src="~/assets/js/navbar.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

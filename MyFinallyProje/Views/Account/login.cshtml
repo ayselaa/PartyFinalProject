@@ -1,0 +1,32 @@
+﻿
+
+ @model LoginVM
+
+@{
+    Layout = "_LoginRegisterLayout";
+}
+<section class="signIn">
+    <div class="login">
+        <form action="#" method="post">
+            <h3>Login</h3>
+             <div class="text-danger" asp-validation-summary="All"></div>
+
+
+            <label asp-for="Username">Username</label>
+            <input asp-for="Username" placeholder="Username">
+
+
+            <label asp-for="Password">Password</label>
+            <input  asp-for="Password" placeholder="Password">
+
+            
+            <div class="check-remember">
+                <input class="checkbox" asp-for="RememberMe">
+                <span class="mr-1">Remember me?</span>
+            </div>
+
+            <button>Log In</button>
+        </form>
+    </div>
+    
+</section>

@@ -1,0 +1,296 @@
+﻿
+     @model HomeVM
+     
+     @{
+        Layout = "_Layout";
+     }
+
+      <section id="Digital" class="salam1">
+           <div class="container">
+            <div data-aos="fade" class="digital-text">
+                <hr>
+                <h2 >Event Management<br>System.</h2>
+            </div>
+
+            <div data-aos="fade-up" class="Box1 row">
+
+                    @foreach (var boxs in Model.HomeBoxes)
+                   {
+                  <div class="box box1 col-md-4">
+                        <div class="box-icon mb-5">
+                          <i class="fa-solid fa-thumbtack"></i>
+                          </div>
+                        <div class="box-text">
+                                <h4>@boxs.Title</h4>
+                                <hr>
+                                <p>@boxs.Description</p>
+                          </div>
+                    </div>
+                   }
+                      </div>
+                        </div>
+            </section>
+
+    <section id="Services">
+      <div class="container">
+        <div data-aos="flip-up" class="services-text ml-4 mb-5">
+          <hr>
+          <h2>EVENTS.</h2>
+          <h4>WE PLAN THE BEST EVENTS!</h4>
+        </div>
+        <div data-aos="fade-left" class="navbar">
+
+            @foreach (Service events in Model.Services)
+           {
+              <div class="col-md-4 mb-4">
+                <div class="middle row justify-content-between">
+                    <div class="col-text">
+               
+
+                         <a  asp-controller="Service" asp-action="Detail" asp-route-id="@events.Id">
+                                <h5>@events.Title</h5>  </a>
+                    
+                      </div>
+                      <div class="col-icon">
+                        <i class="fas fa-arrow-right"></i>
+                      </div>
+                </div>
+              </div>
+           }
+
+             
+
+
+        </div>
+        <div class="midhr mt-5 mb-5">
+            <hr>
+         </div>
+      </div>
+    </section>
+
+    <section id="Works">
+      <div class="container">
+          <div class="works-contain row justify-content-between">
+              <div data-aos="fade-right" class="works-text">
+                  <hr>
+                  <h2>Gallery.</h2>
+                  <h4>Unforgettable Memories...</h4>
+                </div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <section id="Shoes">
+
+      <div class="shoes-contain row">
+
+                  @foreach (var gallery in Model.Galleries)
+                 {
+
+              <div class="black-fon">
+                <div class="black-fon-img">
+                  <img class="img-fluid" src="~/assets/img/gallery/@gallery.GalleryImage.Where(n => n.GalleryId == gallery.Id).FirstOrDefault().Image.Url">
+                </div>
+                <div class="black-fon-text">
+                    <h3>@gallery.Title</h3>
+                    <p></p>
+                </div>
+              </div>
+                     
+                 }
+
+      </div>
+      <div class="midhr mt-5">
+        <hr>
+      </div>
+    </section>
+
+
+
+    <section id="About">
+      <div class="container">
+          <div class="about-text row justify-content-between">
+              <div data-aos="fade-right" class="col-md-4 about-left">
+                  <hr>
+                  <h2>About.</h2>
+                  <h4>Our System</h4>
+              </div>
+          </div>
+          <div data-aos="fade-right" class="about-img row">
+            <div class="col-md-8 img-left pb-4">
+              <img class="img-fluid" src="~/assets/img/about/maskedballmonaco.jpg">
+              <div class="img-text">
+                  <h4>Сoncept</h4>
+                  <p>Committed and creative</p>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="col-md-4 img-right">
+              <div class="right1">  
+                      <img class="img-fluid" src="~/assets/img/about/new year.webp">
+                <div class="img-text1">
+                    <h4>New Year</h4>
+                    <p>Premium Party</p>
+                </div>
+              </div>
+              <div class="right2 pt-4">   
+                <img class="img-fluid" src="~/assets/img/gallery/gallery-3.jpg">
+          <div class="img-text2">
+              <h4>The Fun With Us!</h4>
+              <p>Berlin, UK</p>
+          </div>
+        </div>
+              <div class="right2 pt-4">   
+                      <img class="img-fluid" src="~/assets/img/about/about-1.jpeg">
+                <div class="img-text2">
+                    <h4>Concept</h4>
+                    <p>Azerbaijan, Baku</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="Eventabout">
+      <div class="container">
+        <div class="row">
+            <div data-aos="fade-up" id="Ab1" class="col-md-4">
+            <div class="ngtn">
+              <h2>History</h2>
+              <br>
+              Bizim teşkilatçı şirkətimiz 2022-ci ildən  <br>
+              fəaliyyət göstərir
+            </div>
+          </div>
+            <div data-aos="fade-up" id="Ab2" class="col-md-4">
+                  <div class="ngtn">
+                    <h2>Who we are?</h2>
+                    <br>
+                    Həm professional kollektiv hem de uyğun qiymətləri ilə şirkətimiz 
+                    müştərilərin güvənini qazanmış şirkətlər arasındadır.Ən keyfiyyətli 
+                    xidmetlə fəaliyyet göstərən şirkətimiz daim sizin xidmətinizdədir.
+                  </div>
+                </div>
+            <div data-aos="fade-up" id="Ab3" class="col-md-4">
+                  <div class="ngtn">
+                    <h2>Our Mission</h2>
+                    <br>
+                    <ul>
+
+                      <li>
+                          Keyfiyyetli xidmət
+                      </li>
+
+                      <li>
+                          Bol əyləncə
+                      </li>
+
+                      <li>
+                          Müştəri məmnuniyyəti
+                      </li>
+
+                      <li>
+                         Gənclərin aktivliyini artırmaq
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </div>
+                 </div>
+     </div>
+    </section>
+
+    <section id="Latest">
+      <div data-aos="flip-up" class="latest-text text-center mb-5">
+        <h2>News / Blog</h2>
+        <h4>WORKING WITH EXCELLENT</h4>
+      </div>
+      <div class="latest-img row">
+
+
+       @foreach (var itemm in Model.Blogs)
+      {
+        <div data-aos="flip-left" class="col-md-4 latest-img-1 text-center">
+             @foreach (var images in itemm.BlogImage)
+            {
+            <div class="latest-img1">
+                <img class="img-fluid" src="~/assets/img/blogsekilleri/@images.Image.Url">
+            </div>
+                
+            }
+
+          <div class="latest-text1-contain">
+             <a asp-controller="Blog" asp-action="Detail" asp-route-id="@itemm.Id" ><h3>@itemm.Title</h3></a>
+              <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+          
+      }
+
+
+
+      </div>
+      <div class="midhr mt-5">
+        <hr>
+     </div>
+    </section>
+
+    <section id="Brands">
+      <div class="container">
+        <div class="brand-line mb-5">
+          <hr>
+        </div>
+        <div class="brand-name row">
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/01.png">
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/02.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/03.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/04.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/05.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/06.png">
+
+          </div>
+           <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/01.png">
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/02.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/03.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/04.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/05.png">
+
+          </div>
+          <div class="brand-name1">
+              <img class="img-fluid" src="http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/06.png">
+
+          </div>
+        </div>
+        <div class="midhr mt-3">
+         </div>
+      </div>
+    </section>

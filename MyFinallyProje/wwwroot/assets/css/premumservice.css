@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Belleza&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,200&family=Quicksand&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.PremiumService {
+  background-color: #e9204f;
+  height: 100%;
+  width: 100%;
+}
+
+.aysel1234 {
+  background-color: #e9204f;
+  padding: 100px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.premum-title {
+  color: white;
+}
+
+.premum-title h4 {
+  font-size: 15px;
+}
+
+.premum-title h2 {
+  font-size: 48px;
+  font-family: 'Belleza', sans-serif;
+}
+
+.pteqi {
+  color: #e6dada;
+}
+
+.icon-premium {
+  color: white;
+}
+
+.seconthisse-title {
+  color: white;
+  font-family: 'Belleza', sans-serif;
+}
+
+.seconthisse-title i {
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.secondhisse-des {
+  color: #e6dada;
+}
+/*# sourceMappingURL=premumservice.css.map */

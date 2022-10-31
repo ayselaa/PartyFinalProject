@@ -1,0 +1,149 @@
+﻿
+  @model Product
+@{
+    Layout = "_SecondLayout";
+}
+ 
+<main> 
+ 
+       
+     <section class="book-content">
+      <div class="container">
+             @foreach (var pro in Model.ProductImage.Where(n => n.ProductId== Model.Id))
+   {
+          <div class="imggggggg">
+              <img src="~/assets/uploads/images/@pro.Image.Url">
+          </div>
+   }
+      
+          <div class="book-details">
+              <div class="details">
+                  <h1>@Model.Title</h1>
+                  <ul>
+                      <li>Product Name : &nbsp;<span>@Model.Title</span> </li>
+                      <li>Category:  &nbsp;<span>Party Shop Accesuares</span></li>
+                      <li>Price: &nbsp; <span>$@Model.Price</span></li>
+                  </ul>
+              </div>
+              <div class="Add-Cart">
+                 
+                  <div class="btn-cart">
+                        <a class="btn btn-primary addtobasket text-white ml-5 mt-5">
+                            Add To Cart
+                        </a>
+                      <input type="hidden" value="@Model.Id"/>
+                  </div>
+              </div>
+              <div class="buy-it-now">
+                 <a asp-action="index" asp-controller="home" role="button">Back Home</a>
+              </div>    
+          </div>
+
+      </div>
+  </section>
+  <section class="tabs">
+      <div class="container">
+          <div class="tabset">
+              <input type="radio" name="tabset" id="tab1" aria-controls="description" checked>
+              <label for="tab1">DESCRIPTION</label>
+              <input type="radio" name="tabset" id="tab2" aria-controls="bookInformation">
+              <label for="tab2">INFORMATION</label>
+  
+              <div class="tab-panels">
+                  <div id="description" class="tab-panel">
+                      <h2>@Model.Description</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem ut deserunt
+                          soluta libero voluptatum mollitia illum sapiente aut natus enim vitae reiciendis,
+                          magnam, laborum quidem fugiat molestias officiis. Sit eum tenetur tempore ipsam
+                          molestias doloribus mollitia incidunt dolore, doloremque ducimus aliquam laborum magnam
+                          aperiam, atque officia deserunt odio! Velit!</p>
+                  </div>
+                  <div id="bookInformation" class="tab-panel">
+
+                      <p><strong>Name:</strong>Flowers</p>
+                      <p><strong>Category:</strong>Accesuares</p>
+                      <p><strong>Color:</strong> Red</p>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="related-books">
+      <div class="container">
+          <div class="related-title">
+              <h1>RELATED PRODUCTS</h1>
+          </div>
+          <div class="row">
+              <div class="col col-lg-3 col-md-6 col-sm-12">
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="~/assets/img/products/part-shop-1.jpg">
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <div class="content-info text-danger font-weight-bold">
+                                    <span style="font-size=30px;">GIFT BOX</span>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col col-lg-3 col-md-6 col-sm-12">
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="~/assets/img/products/party-shop.jpg">
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <div class="content-info text-danger font-weight-bold">
+                                    <span>CAKE</span>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col col-lg-3 col-md-6 col-sm-12">
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="~/assets/img/products/party-shop-3.jpg">
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <div class="content-info text-danger font-weight-bold">
+                                    <span>CAKE</span>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col col-lg-3 col-md-6 col-sm-12">
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="~/assets/img/products/party-shop-4.jpg">
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <div class="content-info text-danger font-weight-bold">
+                                    <span>Flowers</span>
+                              </div>
+                         </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+  </main>

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Belleza&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,200&family=Quicksand&display=swap');
+#IsProsesi{
+   h4{
+    color:#e9204f ;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+   }
+   h2{
+    font-size:50px ;
+    font-family: 'Belleza', sans-serif;
+   }
+}
+.midhr hr {
+    background-color: #e9204f;
+    height: 60px;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+}
+
+.iconlarim {
+    font-size: 50px;
+    margin-top: 10px;
+    i{
+        color: #000;
+        background-color: #e9204f;
+        width: 172px;
+        height: 172px;
+        border-radius: 50%;
+        padding: 50px;
+    }
+
+    h5{
+        font-family: 'Belleza', sans-serif;
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 30px;
+        
+    }
+}
+
