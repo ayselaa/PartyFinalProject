@@ -96,33 +96,6 @@ namespace DAL.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("DAL.Models.About", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Abouts");
-                });
-
             modelBuilder.Entity("DAL.Models.Blog", b =>
                 {
                     b.Property<int>("Id")
@@ -459,6 +432,49 @@ namespace DAL.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductImages");
+                });
+
+            modelBuilder.Entity("DAL.Models.Reservation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Text")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Venue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Reservations");
                 });
 
             modelBuilder.Entity("DAL.Models.Service", b =>
@@ -862,6 +878,13 @@ namespace DAL.Migrations
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("DAL.Models.Reservation", b =>
+                {
+                    b.HasOne("DAL.Identity.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
                 });
 
             modelBuilder.Entity("DAL.Models.Service", b =>
