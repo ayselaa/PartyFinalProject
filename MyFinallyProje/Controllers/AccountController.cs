@@ -90,7 +90,7 @@ namespace MyFinallyProje.Controllers
             var message = new MimeMessage();
 
            
-            message.From.Add(new MailboxAddress("PartyHome", "ayselabilovaa12@gmail.com"));
+            message.From.Add(new MailboxAddress("Event Menegment System", "ayselabilovaa12@gmail.com"));
 
             message.To.Add(new MailboxAddress(appUser.FullName, appUser.Email));
             message.Subject = "Confirm Email";
@@ -102,16 +102,12 @@ namespace MyFinallyProje.Controllers
                 emailbody = streamReader.ReadToEnd();
             }
 
-
             var code = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
             var link = Url.Action(nameof(VerifyEmail), "Account", new { userId = appUser.Id, token = code }, Request.Scheme, Request.Host.ToString());
-
-
 
             emailbody = emailbody.Replace("{{fullname}}", $"{appUser.FullName}").Replace("{{code}}", $"{link}");
 
             message.Body = new TextPart(TextFormat.Html) { Text = emailbody };
-
 
             using var smtp = new SmtpClient();
             
@@ -120,18 +116,10 @@ namespace MyFinallyProje.Controllers
             smtp.Authenticate("ayselabilovaa12@gmail.com", "zzrwnzlbuzqglzmn\r\n");
             smtp.Send(message);
 
-
             smtp.Disconnect(true);
 
-
             return RedirectToAction("Index", controllerName: "Home");
-   
-
-            
         }
-
-        
-
         public async Task<ActionResult> Logout()
         {
             //zzrwnzlbuzqglzmn

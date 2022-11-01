@@ -1,1 +1,35 @@
-﻿
+﻿.reztitle {
+    font-family: "Belleza",Arial,Helvetica,sans-serif;
+    display: block;
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.section-title p {
+    color: #616161;
+}
+
+
+.ttm-form-control input {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.ttm-form-control input::after 
+{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.rez-padd{
+    padding: 50px 50px;
+}
