@@ -28,9 +28,16 @@
               <div class="Add-Cart">
                  
                   <div class="btn-cart">
+
+                        @if(User.Identity.IsAuthenticated){
                         <a class="btn btn-primary addtobasket text-white ml-5 mt-5">
-                            Add To Cart
+                            Add Basket
                         </a>
+                        }else{
+                            <p>Please Login</p>
+                        }
+
+                        
                       <input type="hidden" value="@Model.Id"/>
                   </div>
               </div>
@@ -86,7 +93,7 @@
                       <div class="face face2">
                           <div class="content">
                               <div class="content-info text-danger font-weight-bold">
-                                    <span style="font-size=30px;">GIFT BOX</span>
+                                    <span style="font-size:30px;">GIFT BOX</span>
                               </div>
                             </div>
                       </div>

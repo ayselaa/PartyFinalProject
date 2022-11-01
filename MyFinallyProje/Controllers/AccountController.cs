@@ -1,8 +1,14 @@
 ﻿using Business.ViewModels;
 using DAL.Identity;
+using MailKit.Net.Smtp;
+using MailKit.Security;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using MimeKit;
+using MimeKit.Text;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 using static Utilities.Helpers.Enums;
 
@@ -13,16 +19,21 @@ namespace MyFinallyProje.Controllers
         private readonly UserManager <AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly IWebHostEnvironment _env;
+
 
 
         public AccountController(
             UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            SignInManager<AppUser> signInManager)
+            SignInManager<AppUser> signInManager,
+            IWebHostEnvironment env
+            )
         {
             _userManager = userManager;
             _roleManager = roleManager;
-            _signInManager = signInManager; 
+            _signInManager = signInManager;
+            _env = env;
         }
 
 
@@ -31,8 +42,6 @@ namespace MyFinallyProje.Controllers
         {
             return View();
         }
-
-
 
         [HttpPost(nameof(Register))]
         public async Task<IActionResult> Register(RegisterVM registerVM)
@@ -53,8 +62,6 @@ namespace MyFinallyProje.Controllers
             appUser.Lastname = registerVM.Firstname;
             appUser.Email = registerVM.Email;
             appUser.UserName = registerVM.Username;
-
-
 
             var result = await _userManager.CreateAsync(appUser, registerVM.Password);
 
@@ -77,18 +84,58 @@ namespace MyFinallyProje.Controllers
                     ModelState.AddModelError("", item.Description);
                 }
                 return View(registerVM);
-
             }
+
+
+            var message = new MimeMessage();
+
+           
+            message.From.Add(new MailboxAddress("PartyHome", "ayselabilovaa12@gmail.com"));
+
+            message.To.Add(new MailboxAddress(appUser.FullName, appUser.Email));
+            message.Subject = "Confirm Email";
+
+            string emailbody = string.Empty;
+
+            using (StreamReader streamReader = new StreamReader(Path.Combine(_env.WebRootPath, "Templates", "Confirm.html")))
+            {
+                emailbody = streamReader.ReadToEnd();
+            }
+
+
+            var code = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
+            var link = Url.Action(nameof(VerifyEmail), "Account", new { userId = appUser.Id, token = code }, Request.Scheme, Request.Host.ToString());
+
+
+
+            emailbody = emailbody.Replace("{{fullname}}", $"{appUser.FullName}").Replace("{{code}}", $"{link}");
+
+            message.Body = new TextPart(TextFormat.Html) { Text = emailbody };
+
+
+            using var smtp = new SmtpClient();
+            
+
+            smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
+            smtp.Authenticate("ayselabilovaa12@gmail.com", "zzrwnzlbuzqglzmn\r\n");
+            smtp.Send(message);
+
+
+            smtp.Disconnect(true);
+
+
             return RedirectToAction("Index", controllerName: "Home");
-            return Json(registerVM);
-            return View();
+   
 
             
         }
 
+        
 
         public async Task<ActionResult> Logout()
         {
+            //zzrwnzlbuzqglzmn
+
             if (User.Identity.IsAuthenticated)
             {
                 await _signInManager.SignOutAsync();
@@ -155,23 +202,27 @@ namespace MyFinallyProje.Controllers
             return Json(loginVm);
             return View();
         }
-
-
-
+        
         //public async Task<IActionResult> CreateRole()
         //{
         //    await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
-
-
         //    return Ok();
-
+        //
         //}
+        public async Task<IActionResult> VerifyEmail(string userId, string token)
+        {
+            if (userId == null || token == null) return BadRequest();
+
+            AppUser user = await _userManager.FindByIdAsync(userId);
+
+            if (user is null) return BadRequest();
 
 
+            await _userManager.ConfirmEmailAsync(user, token);
 
+            await _signInManager.SignInAsync(user, false);
 
-
-
-
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

@@ -1,75 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Belleza&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,200&family=Quicksand&display=swap');
+$anims: float, floatReverse,float2, floatReverse2;
+$easeSmooth: cubic-bezier(0.39,0.575,0.28,0.995);
+$color: #595959;
 
-.ttm-page-title-row {
-    position: relative;
-    display: table;
-    width: 100%;
-    height: 540px;
-    background-image: url(../img/contact/contact.jpg);
-    background-size: cover;
-    background-position: center;
+body {
+    margin: 0;
+    font-size: 20px;
 }
 
-.ttm-page-title-row .title-box {
-    vertical-align: middle;
-    display: table-cell;
-    padding-top: 117px;
-    background-color: rgba(0,0,0,0.7);
+* {
+    box-sizing: border-box;
 }
 
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1200px;
-}
-
-.text-center {
-    text-align: center!important;
-}
-
-.contact-title{
     position: relative;
-}
-.contact-title h1{
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 56px;
-    color: #fff;
-    margin-bottom: 70px;
-    text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
-    font-weight:900;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: white;
+    color: black;
+    font-family: arial, sans-serif;
+    overflow: hidden;
 }
 
+.content {
+    position: relative;
+    width: 600px;
+    max-width: 100%;
+    margin: 20px;
+    background: white;
+    padding: 60px 40px;
+    text-align: center;
+    box-shadow: -10px 10px 67px -12px rgba(0,0,0,0.2);
+    opacity: 0;
+    animation: apparition 0.8s 1.2s $easeSmooth forwards;
 
-#Elaqe{
-    
-    h4{
-        color:#e9204f ;
-        font-family: 'Poppins', sans-serif;
-        margin-top: 100px;
+    p {
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 0.6rem;
+        letter-spacing: 0.1rem;
+        color: $color;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    button {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem;
+        border: 3px solid $color;
+        background: transparent;
+        font-size: 1rem;
+        color: $color;
+        text-decoration: none;
+        cursor: pointer;
         font-weight: bold;
-        font-size: 15px;
-        letter-spacing: 1px;
     }
-    h2{
-        font-size:50px ;
-    font-family: 'Belleza', sans-serif;
-    }
-    p{
-        margin-top: 20px;
-    }
-    i{
-        color: #e9204f;
-        font-size: 285%;
-        margin-top: 30px;
-        vertical-align: middle;
-    }
-
 }
 
+.particle {
+    position: absolute;
+    display: block;
+    pointer-events: none;
+
+    @for $i from 1 through 80 {
+        &:nth-child(#{$i}) {
+            $size: random(20) + 10;
+            $blur: $i * 0.02;
+            $speed: random(20)+20;
+            $delay: random(10)*0.1;
+            $anim: nth($anims, random(length($anims)));
+
+            top: random(100) / (100 + $size/8) * 100%;
+            left: random(100) / (100 + $size/10) * 100%;
+            font-size: $size + px;
+            filter: blur( (#{$blur}) + px);
+            animation: $speed+s $anim infinite;
+        }
+    }
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%,100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(180px);
+    }
+}
+
+@keyframes floatReverse {
+    0%,100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-180px);
+    }
+}
+
+@keyframes float2 {
+    0%,100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(28px);
+    }
+}
+
+@keyframes floatReverse2 {
+    0%,100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-28px);
+    }
+}
+
+@mixin animation ($delay, $duration, $animation) {
+    animation-delay: $delay;
+    animation-duration: $duration;
+    animation-name: $animation;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}

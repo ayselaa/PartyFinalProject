@@ -742,3 +742,13 @@ C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinall
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.dll
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.pdb
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\MyFinallyProje.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Formats.Asn1.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Cng.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll

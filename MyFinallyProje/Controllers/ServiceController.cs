@@ -46,6 +46,7 @@ namespace MyFinallyProje.Controllers
             serviceVm.Comments = await _commentService.GetAll();
 
 
+
             return View(serviceVm);
         }
 

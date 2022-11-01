@@ -111,12 +111,12 @@
                                 <textarea placeholder="Type your comments...." asp-for="Comment.Text"></textarea>
                             </div>
                             <div class="input-item input-item-name ltn__custom-icon">
-                                <input type="text" placeholder="Type your name...." asp-for="Comment.AppUser" value="@(User.Identity.IsAuthenticated?member.UserName:"")">
+                                <input type="text" placeholder="Type your name...." asp-for="Comment.AppUser" value="@(User.Identity.Name)">
                             </div>
 
                             <label class="mb-0 mt-2"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label>
                             <div class="btn-wrapper">
-                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Submit</button>
+                                <button @(User.Identity.IsAuthenticated ? "" : "disabled") class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Submit</button>
                             </div>
                         </form>
                     </div>

@@ -116,7 +116,6 @@ toastr.options = {
 //})
 
 const addBasketBtn = document.querySelectorAll(".addtobasket");
-console.log(addBasketBtn);
 
 for (var i = 0; i < addBasketBtn.length; i++)
 {
