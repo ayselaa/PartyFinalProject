@@ -4,6 +4,7 @@
     font-size: 38px;
     line-height: 40px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .section-title p {
@@ -16,20 +17,77 @@
     border: none;
     border-radius: 0;
     padding-bottom: 9px;
-    padding-left: 35px;
+    padding-left: 25px;
     border-bottom: 1px solid rgba(0,0,0,.15);
+    padding: 20px;
 }
 
-.ttm-form-control input::after 
-{
+
+.ttm-form-control textarea {
     background-color: transparent;
     border: none;
     border-radius: 0;
     padding-bottom: 9px;
     padding-left: 35px;
     border-bottom: 1px solid rgba(0,0,0,.15);
+    margin-top: 21px;
+}
+
+.ttm-form-control input:focus {
+    border: 0;
+    border-color: white;
+    outline:0;
+    
 }
 
 .rez-padd{
-    padding: 50px 50px;
+    padding: 33px 85px;
 }
+
+.contactform i {
+    color: #fd226a;
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    opacity: .9;
+    font-size: 20px;
+    line-height: 16px;
+    z-index: 1;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.rez-btn {
+    background: transparent;
+    background-color: #fd226a;
+    color: #fff;
+    border: none;
+    padding: 17px 37px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+    .rez-btn :hover {
+        background-color: black;
+        color: #fff;
+       
+    }
+
+
+.Reservation{
+    padding-top:40px;
+}
+
+.row-rew{
+    box-shadow:1px black;
+}
+
+.container-cont {
+    max-width: 1226px;
+    padding-left:14px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
