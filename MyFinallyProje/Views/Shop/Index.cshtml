@@ -2,24 +2,22 @@
  @model ShopVM
 
        <main>
-          <div id="carouselExampleSlidesOnly" class="carousel slide d-none" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="ttm-page-title-row text-center" style="background: url('./assets/img/contact/contact.jpg')">
-                    <div class="title-box text-center"> 
-                        <div class="contact-title">
-                            <h1>PRODUCTS</h1>
-                        </div>
-                        <div class="breadcrumb-wrapper">
-                          <div class="container">
-                              <span><a class="text-white" title="Homepage" href="index.html"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
-                              <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
-                              <span><a title="" href="our-team.html" class="text-white">Shop &nbsp; &nbsp;  Products</a></span>
-                          </div>
-                      </div>
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>PRODUCTS</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container">
+                        <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" asp-action="index" asp-controller="shop" class="text-white">Shop</a></span>
                     </div>
                 </div>
-             </div>
-          </div>
+            </div>
+        </div>
+    </div>
 
           <section class="section-products">
             <div class="container">

@@ -66,7 +66,6 @@ namespace MyFinallyProje
 
             services.Configure<IdentityOptions>(options =>
             {
-                options.Lockout.MaxFailedAccessAttempts = 3;
                 options.Lockout.DefaultLockoutTimeSpan = System.TimeSpan.FromMinutes(1);
                 options.Password.RequireDigit = true;
                 options.User.RequireUniqueEmail = true;
