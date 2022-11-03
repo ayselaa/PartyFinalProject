@@ -1,0 +1,67 @@
+﻿@model List<Reservation>
+
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">User Reservation</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="dashboard" asp-action="index">Go Back</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Email
+                            </th>
+                            <th>
+                                Venue
+                            </th>
+                            <th>
+                                PhoneNumber
+                            </th>
+
+                            <th>
+                                Text
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var rez in Model)
+                        {
+                            <tr>
+                              
+                                <td>
+                                    @rez.Name
+                                </td>
+                                <td>
+                                    @rez.Email
+                                </td>
+                                <td>
+                                    @rez.Venue
+                                </td>
+                                <td> 
+                                    @rez.PhoneNumber
+                                </td>
+                                  <td>
+                                    @rez.Text
+                                </td>
+
+                                <td>
+                                    <a asp-area="admin" asp-controller="Reservation" asp-action="delete" asp-route-id="@rez.Id" class="btn btn-danger m-1">Delete</a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -57,6 +57,7 @@ namespace MyFinallyProje
             services.AddScoped<LayoutService>();
             services.AddScoped<IGalleryService, GalleryRepository>();
             services.AddScoped<ICategoryService, CategoryRepository>();
+            services.AddScoped<IReservationService, ReservationRepository>();
 
 
             services.AddIdentity<AppUser, IdentityRole>()

@@ -19,7 +19,6 @@ namespace DAL.Models
         [Required, DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
         public string Text { get; set; }
-        public string AppUserId { get; set; }
-        public AppUser AppUser { get; set; }
+      
     }
 }

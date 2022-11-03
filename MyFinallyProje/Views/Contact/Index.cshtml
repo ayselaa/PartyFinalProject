@@ -87,7 +87,11 @@
             </div>
         </section>
 
-    <section class="Reservation">
+
+@*        Reservation  section START
+*@ 
+
+  <section class="Reservation">
         <div class="container container-cont">
             <div class="row row-rew">
                 <div class="col-md-4 col-lg-4">
@@ -99,19 +103,19 @@
                             <h3 class="reztitle">Get The New Year Party Started</h3>
                             <p>As the premier event planning company in the area. Each event and client is unique and we believe our services should be as well.</p>
                         </div>
-                        <form id="contactform" class="row contactform" method="post" action="#" novalidate="novalidate">
+                        <form class="row contactform" asp-controller="Contact" asp-action="Reservation" method="post">
                            
                             <label class="col-md-6">
                            <i class="fa-solid fa-user"></i>
                                 <span class="ttm-form-control">
-                           <input class="text-input" name="name" type="text" value="" placeholder="Your Name:*" required="required">
+                           <input class="text-input" asp-for="@Model.Reservation.Name" value="" placeholder="Your Name:*" required="required">
                            </span>
                             </label>
 
                             <label class="col-md-6">
                                 <i class="fa-solid fa-envelope"></i>
                                 <span class="ttm-form-control">
-                                    <input class="text-input" name="email" type="text" value="" placeholder="Your email-id:*" required="required">
+                                    <input class="text-input" asp-for="@Model.Reservation.Email" value="" placeholder="Your email-id:*" required="required">
                                 </span>
                             </label>
 
@@ -119,7 +123,7 @@
                             <label class="col-md-6">
                                 <i class="fa-solid fa-location-dot"></i>        
                                 <span class="ttm-form-control">
-                                    <input class="text-input" name="venue" type="text" value="" placeholder="Venue" required="required">
+                                    <input class="text-input" asp-for="@Model.Reservation.Venue"  value="" placeholder="Venue" required="required">
                                 </span>
                             </label>
 
@@ -127,13 +131,14 @@
                             <label class="col-md-6">
                                 <i class="fa-solid fa-mobile-screen-button"></i>
                                 <span class="ttm-form-control">
-                                    <input class="text-input" name="phone" type="text" value="" placeholder="Your Number:*" required="required"></span>
+                                    <input class="text-input" asp-for="@Model.Reservation.PhoneNumber" value="" placeholder="Your Number:*" required="required">
+                                </span>
                             </label>
 
                             <label class="col-md-12">
                                 <i class="fa-solid fa-message"></i>
                                 <span class="ttm-form-control">
-                                    <textarea class="text-area" name="message" placeholder="Your Message:*" required="required"></textarea>
+                                    <textarea class="text-area" asp-for="@Model.Reservation.Text" placeholder="Your Message:*" required="required"></textarea>
                               </span>
                             </label>
                             <input name="submit" type="submit" value="Make a Reservation" class="rez-btn mt-20" id="submit" title="Make a Reservation">
@@ -143,4 +148,8 @@
             </div>
         </div>
     </section>
+    
+
+@*         Reservation  section END
+*@
 </main>
