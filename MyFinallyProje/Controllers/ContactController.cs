@@ -35,12 +35,12 @@ namespace MyFinallyProje.Controllers
 
 
         [HttpPost]
-        public async Task Reservation(ContactVM contactVM)
+        public async Task<IActionResult> Reservation(ContactVM contactVM)
         {
             var data = await _context.Reservations.AddAsync(contactVM.Reservation);
             _context.SaveChanges();
             
-            RedirectToAction("Index", "Contact");
+            return RedirectToAction("Index", "Contact");
         }
     }
 }
