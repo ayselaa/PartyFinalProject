@@ -15,7 +15,6 @@ window.onscroll = () =>{
   }else{
     document.querySelector('.header .header-2').classList.remove('active');
   }
-
 }
 
 window.onload = () =>{
@@ -64,8 +63,7 @@ var myInp = document.querySelectorAll(".inp-num .inp-value");
       countn=Number(count)
        countn+=1;
       this.previousElementSibling.innerText=countn;
-      
-      
+     
     })
   }
   

@@ -1,11 +1,29 @@
 ﻿@inject LayoutService layoutservices;
 @{
-    Layout = "_SecondLayout";
+    Layout = "_Layout";
 }
 
 @{
     ViewData["Title"] = "Index";
 }
+
+<div class="carousel-inner">
+    <div class="ttm-page-title-row text-center">
+        <div class="title-box text-center">
+            <div class="contact-title">
+                <h1>CARD</h1>
+            </div>
+            <div class="breadcrumb-wrapper">
+                <div class="container">
+                    <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                    <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                    <span><a title="" asp-action="index" asp-controller="basket" class="text-white">CARD</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="shopping-caberf mt-5">
     <div class="container">
         <div class="row">
@@ -41,12 +59,8 @@
                             <td class="item-price">
                                 <span class="money text-danger font-weight-bold">@basketVM.Price</span>
                             </td>
-                            <td class="item-quantity">
-                                <div class="inp-num">
-                                    <a href="#" class="down"><i class="fas fa-chevron-left"></i></a>
-                                    <span class="inp-value">@basketVM.Count</span>
-                                    <a href="#" class="up"><i class="fas fa-chevron-right"></i></a>
-                                </div>
+                            <td class="item-quantityy">
+                                    <span class="inp-value" style="margin-left: 89px;">@basketVM.Count</span>
                             </td>
                             <td class="item-total ">
                                 <div class="remove">
@@ -85,7 +99,8 @@
                         </span>
                     </div>
                     <div class="card-footer">
-                        <button type="submit">Checkout</button>
+                        <button type="submit"> <a asp-action="index" asp-controller="checkout">Checkout</a></button>
+                      
                     </div>
                 </div>
             </div>

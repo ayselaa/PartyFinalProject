@@ -1,20 +1,25 @@
-﻿  
-     
+﻿@inject LayoutService layoutservices;
  @model CheckoutVM
 
 
-<main> 
-   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-          <div class="ttm-page-title-row text-center" style="background: url('./assets/img/contact/contact.jpg')">
-              <div class="title-box text-center"> 
-                  <div class="contact-title">
-                      <h1>CHECKOUT</h1>
-                  </div>
-              </div>
-          </div>
-   </div>
-      </div>
+
+<main>
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>CHECKOUT</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container">
+                        <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" asp-action="index" asp-controller="checkout" class="text-white">Checkout</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <section class="checkout-detail mt-5">
     <div class="container">
@@ -49,40 +54,42 @@
                    </div>
                    <div class="submit mb-5">
                        <button>Continue to Payment</button>
-                       <a href="" class="hfr4jf5b text-decoration-none">Return to cart</a>
+                       <a asp-action="index" asp-controller="basket" class="hfr4jf5b text-decoration-none">Return to cart</a>
                    </div>
                </form>
             </div>
             <div class="col-lg-5 right-side">
-                <div class="my-product">
-                    <div class="book-image">
-                        <img src="./Assets/images/book16.jpg" alt="">
+
+
+                    @foreach (BasketVM basketVM in layoutservices.GetBasket()){
+                      
+                    <div class="my-product">
+                            <div class="book-image">
+                                <img style="height: 117px;" src="~/assets/uploads/images/@basketVM.ProductImage.Image.Url" alt="item1" />
+                            </div>
+                            <div class="book-info" style="margin-top: 26px;">
+                        <h5>@basketVM.Title</h5>
+                         <p> <span class="item-quantity d-inline-block">@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
                     </div>
-                    <div class="book-info">
-                        <h5>Product Name</h5>
-                        <span>2 X $50</span>
-                    </div>
-                    <div class="price">
-                        <h5>Total Price</h5>
-                        <span>$100</span>
-                    </div>
-                </div>
-                <div class="my-product">
-                    <div class="book-image">
-                        <img src="./Assets/images/book16.jpg" alt="">
-                    </div>
-                    <div class="book-info">
-                        <h5>Product Name</h5>
-                        <span>2 X $50</span>
-                    </div>
-                    <div class="price">
-                        <h5>Total Price</h5>
-                        <span>$100</span>
-                    </div>
-                </div>
+                   </div>
+                    }
+                
                 <div class="total-price">
                     <span class="text">Total Price</span>
-                    <span>$200</span>
+                    <span>
+
+                            @{
+                                double total = 0;
+
+
+                                foreach (BasketVM basketVM in layoutservices.GetBasket())
+                                {
+                                    total += (basketVM.Count * basketVM.Price);
+                                }
+                            }
+                            $@total.ToString("F2")
+                        
+                    </span>
                 </div>
             </div>
         </div>
