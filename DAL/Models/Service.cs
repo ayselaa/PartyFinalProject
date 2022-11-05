@@ -13,6 +13,8 @@ namespace DAL.Models
     {
         [Required, MaxLength(100)]
         public string Title { get; set; }
+        public string Text1 { get; set; }
+        public string Text2 { get; set; }
         public int? ServiceDetailId { get; set; }
         public ServiceDetail ServiceDetail { get; set; }
         public int? CategoryId { get; set; }
