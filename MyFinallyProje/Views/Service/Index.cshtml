@@ -12,8 +12,8 @@
             <div class="title-box text-center">
                 <div class="contact-title">
                     <h1>OUR EVENTS</h1>
-                </div>
-                <div class="breadcrumb-wrapper">
+                 </div>
+                  <div class="breadcrumb-wrapper">
                     <div class="container">
                         <span><a class="text-white" title="Homepage" href="index.html"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
                         <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
@@ -32,19 +32,23 @@
                 <h4>WE PLAN THE BEST EVENTS!</h4>
             </div>
             <div data-aos="fade-left" class="navbar">
-                @foreach (var item in Model.ServiceDetails)
+                @foreach (Service events in Model.Services)
                 {
                     <div class="col-md-4 mb-4">
                         <div class="middle row justify-content-between">
                             <div class="col-text">
-                                <h5>@item.Content</h5>
+
+
+                                <a asp-controller="Service" asp-action="Detail" asp-route-id="@events.Id">
+                                    <h5>@events.Title</h5>
+                                </a>
+
                             </div>
                             <div class="col-icon">
                                 <i class="fas fa-arrow-right"></i>
                             </div>
                         </div>
                     </div>
-
                 }
 
 
