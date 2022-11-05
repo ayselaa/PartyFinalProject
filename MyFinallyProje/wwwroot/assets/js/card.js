@@ -124,6 +124,6 @@ for (var i = 0; i < addBasketBtn.length; i++)
         const request = await fetch(`/shop/addtobasket/${id}`, {
             method: "POST"
         })
-        toastr.warning("Sebete elave olundu!");
+        toastr.warning("Product added to cart!");
     });
 }

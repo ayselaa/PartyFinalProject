@@ -1,12 +1,11 @@
-﻿@* @model List<Basket
-*@@{
+﻿@inject LayoutService layoutservices;
+@{
     Layout = "_SecondLayout";
 }
 
 @{
     ViewData["Title"] = "Index";
 }
-
 <section class="shopping-caberf mt-5">
     <div class="container">
         <div class="row">
@@ -14,43 +13,42 @@
                 <table>
                     <thead>
                         <tr>
-
                             <th class="item">Items</th>
                             <th class="price">Price</th>
                             <th class="qty">Quantity</th>
-                            <th class="total-price">Total</th>
-
+                            <th class="total-price">Remove</th>
                         </tr>
                     </thead>
 
                     <tbody>
-                        <tr class="cart-items">
+                        @foreach (BasketVM basketVM in layoutservices.GetBasket()){
+                            
+                            <tr class="cart-items">
                             <td class="item-info">
                                 <div class="item-image-info">
                                     <div class="item-image">
                                         <a href="">
-                                            <img src="~/assets/img/products/party-shop-4.jpg" alt="">
-                                        </a>
+                                          <img src="~/assets/uploads/images/@basketVM.ProductImage.Image.Url" alt="item1" />
+                                         </a>
                                     </div>
                                     <div class="item-title">
-                                        <a href="">
-                                            <span class="item-name">FLOWERS</span>
+                                        <a>
+                                            <span class="item-name">@basketVM.Title</span>
                                         </a>
                                     </div>
                                 </div>
                             </td>
                             <td class="item-price">
-                                <span class="money text-danger font-weight-bold" data-currency-usd="$55.00">$55.00</span>
+                                <span class="money text-danger font-weight-bold">@basketVM.Price</span>
                             </td>
                             <td class="item-quantity">
                                 <div class="inp-num">
                                     <a href="#" class="down"><i class="fas fa-chevron-left"></i></a>
-                                    <span class="inp-value">1</span>
+                                    <span class="inp-value">@basketVM.Count</span>
                                     <a href="#" class="up"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </td>
                             <td class="item-total ">
-                                <span class="money" data-currency-usd="$55.00">$55.00</span>
                                 <div class="remove">
                                     <a href="" class="cart-remove-btn" type="button">
                                         <span>Remove</span>
@@ -58,15 +56,13 @@
                                 </div>
                             </td>
                         </tr>
+                        }
+
                     </tbody>
 
 
                 </table>
-                <div class="clear-all">
-                    <a href="">
-                        Delete All
-                    </a>
-                </div>
+             
             </div>
             <div class="col-lg-3 right-side">
                 <div class="card">
@@ -75,7 +71,18 @@
                     </div>
                     <div class="card-body font-weight-bold">
                         <h2 class="ryugfervb">Total Price</h2>
-                        <span class="frhebfuh">$100</span>
+                        <span class="frhebfuh">
+                            @{
+                                double total = 0;
+
+
+                                foreach (BasketVM basketVM in layoutservices.GetBasket())
+                                {
+                                    total += (basketVM.Count * basketVM.Price);
+                                }
+                            }
+                            $@total.ToString("F2")
+                        </span>
                     </div>
                     <div class="card-footer">
                         <button type="submit">Checkout</button>
