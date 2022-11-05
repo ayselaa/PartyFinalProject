@@ -28,7 +28,7 @@ namespace MyFinallyProje.Controllers
         {
             ContactVM contactVm = new ContactVM();
 
-            contactVm.Reservations = await _reservationService.GetAll();
+            
 
             return View(contactVm);
         }
