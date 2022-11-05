@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Belleza&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,200&family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .details-texts {
   color: #e9dfdf;
 }
@@ -8,4 +10,15 @@
   color: #e9204f;
   font-family: 'Anton', sans-serif;
 }
-/*# sourceMappingURL=service-details.css.map */
+
+.details-textsmy h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.details-textsmy p {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

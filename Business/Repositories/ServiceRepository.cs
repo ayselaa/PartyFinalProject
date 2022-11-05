@@ -73,6 +73,8 @@ namespace Business.Repositories
         {
             var data = await Get(id);
             data.Title = entity.Title;
+            data.Text1 = entity.Text1;
+            data.Text2 = entity.Text2;
             data.UpdatedDate = DateTime.UtcNow.AddHours(4);
             await _context.SaveChangesAsync();
         }

@@ -22,10 +22,10 @@
 
      <div class="container">
         <div class="row">
-            <div data-aos="fade-right" style="margin-left: 28%" class=" d-flex flex-wrap mt-5">
+            <div data-aos="fade-right" style="margin-left: 10%" class=" d-flex flex-wrap mt-5">
                 @foreach (var serviceImage in @Model.ServiceImage.Where(n => n.ServiceId== Model.Id))
                {
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="margin-left: 20%;">
                         <div class="serviceholl pt-4">   
                             <img class="img-fluid" src="~/assets/img/Uploads/@serviceImage.Image.Url">
                             
@@ -36,17 +36,18 @@
                         </div>              
                     </div>
                }
-
-                                  <div class="details-texts mt-2 text-muted">
-                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi aliquid mollitia<br>
-                                  error! Et vitae excepturi error incidunt. Suscipit maiores placeat hic sequi<br>
-                                  reiciendis ipsam, odit quis consequatur id sit perspiciatis atque odio minus<br>
-                                  tempora esse modi officiis facere rerum dolorem. Voluptates recusandae quia cum iusto.<br>
-                                  Expedita eos accusantium adipisci eius.</p><br>
+                               
+                    <div class="details-textsmy mt-2 text-muted">
+                    <h4>
+                     @Model.Text1
+                    </h4>
  
-                                  <p>At Cole, Scott & Kissane, P.A. our commitment to a diverse law firm and inclusive <br>
-                                  work environment is paramount to the success of our firm and our communities.</p><br>
-               </div>
+                    <p>
+                     @Model.Text2
+                    </p>
+                    </div>
+                                     
+                                 
            </div>
         </div>
       </div>
