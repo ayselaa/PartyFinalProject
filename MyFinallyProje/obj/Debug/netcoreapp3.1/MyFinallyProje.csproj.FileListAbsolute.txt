@@ -753,3 +753,7 @@ C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Reservation\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

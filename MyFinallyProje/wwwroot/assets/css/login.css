@@ -457,4 +457,13 @@
     width: 16rem;
   }
 }
-/*# sourceMappingURL=login.css.map */
+.forgotpass a{
+    text-decoration:none;
+    color:black;
+    font-size:12px;
+}
+
+.forgotpass {
+    margin-left: 73px;
+    margin-top: 24px;
+}
