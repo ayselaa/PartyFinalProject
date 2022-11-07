@@ -106,16 +106,11 @@ namespace MyFinallyProje.Controllers
         {
             if (id == null) return BadRequest();
 
-            Product product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
-
-            BasketVM basketVM = null;
-            
             AppUser member = null;
             
             if (User.Identity.IsAuthenticated)
             {
-                member = _userManager.Users.FirstOrDefault(x => x.UserName == User.Identity.Name && !x.IsAdmin);
-
+                member =  _userManager.Users.FirstOrDefault(x => x.UserName == User.Identity.Name && !x.IsAdmin);
             }
 
             List<BasketVM> basketVMs = new List<BasketVM>();
@@ -123,18 +118,15 @@ namespace MyFinallyProje.Controllers
             {
                 string cookie = HttpContext.Request.Cookies["basket"];
                 basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(cookie);
+                basketVMs = basketVMs.Where(b => b.Id != id).ToList();
 
-                if (cookie! == null)
-                {
-                    basketVMs.Remove(basketVM);
-                }
+                
 
-                basketVM.Count--;
 
                 string prod = JsonConvert.SerializeObject(basketVMs);
                 HttpContext.Response.Cookies.Append("basket", prod);
             }
-            return Ok();
+            return RedirectToAction("Index","Basket");
         }
 
         #region Get Session
