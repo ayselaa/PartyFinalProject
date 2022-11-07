@@ -36,7 +36,7 @@ namespace MyFinallyProje.Controllers
 
         public async Task<IActionResult> Detail(int? Id)
         {
-            Team team = _context.Teams.Include(n => n.TeamDetail).Include(n => n.TeamImage).ThenInclude(n => n.Image).FirstOrDefault(s => s.Id == Id);
+            Team team =  _context.Teams.Include(n => n.TeamDetail).Include(n => n.TeamImage).ThenInclude(n => n.Image).FirstOrDefault(s => s.Id == Id);
 
             return View(team);
         }

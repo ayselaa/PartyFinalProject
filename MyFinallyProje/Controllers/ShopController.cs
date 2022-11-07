@@ -1,12 +1,15 @@
 ﻿using Business.Services;
 using Business.ViewModels;
 using DAL.Data;
+using DAL.Identity;
 using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,16 +21,19 @@ namespace MyFinallyProje.Controllers
         private readonly AppDbContext _context;
         private readonly IProductService _productService;
         private readonly IProductDetailService _productDetailService;
+        private readonly UserManager<AppUser> _userManager;
+
 
         public ShopController(AppDbContext context,
                               IProductService productService,
-                              IProductDetailService productDetailService
+                              IProductDetailService productDetailService,
+                              UserManager<AppUser> userManager
 )
         {
             _context = context;
             _productService = productService;
             _productDetailService = productDetailService;
-
+            _userManager = userManager;
         }
         public async Task <IActionResult> Index()
         {
@@ -48,6 +54,7 @@ namespace MyFinallyProje.Controllers
         }
 
 
+        #region Add Basket
         [HttpPost]
         public async Task<IActionResult> AddToBasket(int? id)
         {
@@ -85,7 +92,6 @@ namespace MyFinallyProje.Controllers
                 {
                     basketVMs.Add(basketVM);
                 }
-
             }
             string prod = JsonConvert.SerializeObject(basketVMs);
 
@@ -93,7 +99,45 @@ namespace MyFinallyProje.Controllers
 
             return Ok();
         }
-      
+
+        #endregion
+        
+        public async Task<IActionResult> RemoveFromBasket(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            Product product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+
+            BasketVM basketVM = null;
+            
+            AppUser member = null;
+            
+            if (User.Identity.IsAuthenticated)
+            {
+                member = _userManager.Users.FirstOrDefault(x => x.UserName == User.Identity.Name && !x.IsAdmin);
+
+            }
+
+            List<BasketVM> basketVMs = new List<BasketVM>();
+            if (member == null)
+            {
+                string cookie = HttpContext.Request.Cookies["basket"];
+                basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(cookie);
+
+                if (cookie! == null)
+                {
+                    basketVMs.Remove(basketVM);
+                }
+
+                basketVM.Count--;
+
+                string prod = JsonConvert.SerializeObject(basketVMs);
+                HttpContext.Response.Cookies.Append("basket", prod);
+            }
+            return Ok();
+        }
+
+        #region Get Session
         public IActionResult GetSession()
         {
 
@@ -113,5 +157,6 @@ namespace MyFinallyProje.Controllers
 
             return Json(basketVMs);
         }
+        #endregion
     }
 }

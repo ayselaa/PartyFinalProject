@@ -63,11 +63,11 @@
                                     <span class="inp-value" style="margin-left: 89px;">@basketVM.Count</span>
                             </td>
                             <td class="item-total ">
-                                <div class="remove">
-                                    <a href="" class="cart-remove-btn" type="button">
+                                  <div class="remove">
+                                        <a asp-action="RemoveFromBasket" asp-controller="shop" asp-route-id="@basketVM.Id" class="cart-remove-btn" type="button">
                                         <span>Remove</span>
-                                    </a>
-                                </div>
+                                       </a>
+                                  </div>
                             </td>
                         </tr>
                         }
