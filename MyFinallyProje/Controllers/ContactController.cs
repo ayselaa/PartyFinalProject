@@ -24,12 +24,10 @@ namespace MyFinallyProje.Controllers
             _reservationService = reservationService;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             ContactVM contactVm = new ContactVM();
-
             
-
             return View(contactVm);
         }
 

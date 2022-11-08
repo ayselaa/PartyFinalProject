@@ -193,7 +193,6 @@ namespace MyFinallyProje.Controllers
 
 
             return RedirectToAction("Index", controllerName: "Home");
-            return View();
         }
         #endregion
 

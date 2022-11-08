@@ -34,7 +34,6 @@ window.onload = () =>{
 
 
 
-// Sidebar on right (
  
 
     function openNav() {

@@ -43,7 +43,7 @@ namespace MyFinallyProje.Controllers
         public async Task<IActionResult> Detail(int? Id)
         {
 
-            Blog blog = _context.Blogs.Include(n => n.BlogDetail).Include(n => n.BlogImage).ThenInclude(n => n.Image).FirstOrDefault(s => s.Id == Id);
+            Blog blog = await _context.Blogs.Include(n => n.BlogDetail).Include(n => n.BlogImage).ThenInclude(n => n.Image).FirstOrDefaultAsync(s => s.Id == Id);
 
             return View(blog);
         }

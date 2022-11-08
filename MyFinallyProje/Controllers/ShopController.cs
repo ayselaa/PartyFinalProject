@@ -101,7 +101,8 @@ namespace MyFinallyProje.Controllers
         }
 
         #endregion
-        
+
+        #region Remove Basket
         public async Task<IActionResult> RemoveFromBasket(int? id)
         {
             if (id == null) return BadRequest();
@@ -110,7 +111,8 @@ namespace MyFinallyProje.Controllers
             
             if (User.Identity.IsAuthenticated)
             {
-                member =  _userManager.Users.FirstOrDefault(x => x.UserName == User.Identity.Name && !x.IsAdmin);
+                member = await _userManager.Users.FirstOrDefaultAsync(x =>
+                x.UserName == User.Identity.Name && !x.IsAdmin);
             }
 
             List<BasketVM> basketVMs = new List<BasketVM>();
@@ -120,14 +122,13 @@ namespace MyFinallyProje.Controllers
                 basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(cookie);
                 basketVMs = basketVMs.Where(b => b.Id != id).ToList();
 
-                
-
-
                 string prod = JsonConvert.SerializeObject(basketVMs);
                 HttpContext.Response.Cookies.Append("basket", prod);
             }
             return RedirectToAction("Index","Basket");
         }
+
+        #endregion
 
         #region Get Session
         public IActionResult GetSession()

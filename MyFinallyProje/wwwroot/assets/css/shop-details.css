@@ -12,15 +12,11 @@
   --body-bg: #FAFAFA;
   --page-bg: #F5F5F5;
   --dark-text: #2A2935;
-  /* spacing */
-  /* this is what defines the global scale */
+
   --baseline: 12px;
-  /* fonts */
   --book-title: 'Tulpen One', sans-serif;
   --title: 'Cormorant Garamond', serif;
   --body: 'Cormorant Garamond', serif;
-  --base-size: var(--baseline) * 1.2;
-  /*Blog */
   --mobile-width: 325px;
   --mobile-height: 670px;
   --mobile-radius: 25px;
