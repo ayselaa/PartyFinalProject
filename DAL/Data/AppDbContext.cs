@@ -30,5 +30,7 @@ namespace DAL.Data
         public DbSet<GalleryImage> GalleryImages { get; set; }
         public DbSet<Category> Categories{ get; set; }
         public  DbSet<Reservation> Reservations { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet <OrderProduct> OrderProducts { get; set; }
     }
 }

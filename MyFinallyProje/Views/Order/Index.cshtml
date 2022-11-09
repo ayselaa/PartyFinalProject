@@ -1,0 +1,99 @@
+﻿@inject LayoutService layoutservices;
+ @model OrderVM
+
+
+<main>
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>CHECKOUT</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container">
+                        <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" asp-action="index" asp-controller="checkout" class="text-white">Checkout</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<section class="checkout-detail mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 left-side">
+               <form method="post" asp-controller="Order" asp-action="CreateOrder" >
+                   <div class="contact-information">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <input type="text" placeholder="Email">
+                    </div>
+                   
+                   </div>
+                   <div class="billing-address">
+                       <h4>Shipping Address</h4>
+                       <select asp-for="@Model.City" name="" id="">
+                           <option value="Baku">Baku</option>
+                           <option value="Ismaily">Ismaily</option>
+                           <option value="Ganja">Ganja</option>
+                           <option value="Lankaran">Lankaran</option>
+                       </select>
+                       <div class="name-surname">
+                           <input type="text" asp-for="@Model.FirstName" placeholder="First Name">
+                           <input type="text" asp-for="@Model.LastName" placeholder="Last Name">
+                       </div>
+                       <input type="text" asp-for="@Model.Adress" placeholder="Address">
+                       <input type="text"asp-for="@Model.Email" placeholder="Email">
+                       <div class="post-code">
+                           <input type="text" asp-for="@Model.PostalCode" placeholder="Postal code">
+                           <input type="text" asp-for="@Model.PhoneNumber" placeholder="Phone Number">
+                       </div>
+                   </div>
+                   <div class="submit mb-5">
+                       <button>Continue to Payment</button>
+                       <a asp-action="index" asp-controller="basket" class="hfr4jf5b text-decoration-none">Return to cart</a>
+                   </div>
+               </form>
+            </div>
+            <div class="col-lg-5 right-side">
+
+
+                    @foreach (BasketVM basketVM in layoutservices.GetBasket()){
+                      
+                    <div class="my-product">
+                            <div class="book-image">
+                                <img style="height: 117px;" src="~/assets/uploads/images/@basketVM.ProductImage.Image.Url" alt="item1" />
+                            </div>
+                            <div class="book-info" style="margin-top: 26px;">
+                        <h5>@basketVM.Title</h5>
+                         <p> <span class="item-quantity d-inline-block">@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
+                    </div>
+                   </div>
+                    }
+                
+                <div class="total-price">
+                    <span class="text">Total Price</span>
+                    <span>
+
+                            @{
+                                double total = 0;
+
+
+                                foreach (BasketVM basketVM in layoutservices.GetBasket())
+                                {
+                                    total += (basketVM.Count * basketVM.Price);
+                                }
+                            }
+                            $@total.ToString("F2")
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+</main>

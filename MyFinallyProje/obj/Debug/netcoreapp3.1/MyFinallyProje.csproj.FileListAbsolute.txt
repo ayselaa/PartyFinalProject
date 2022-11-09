@@ -719,7 +719,6 @@ C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Vi
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\detail.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
-C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Service\Detail.cshtml.g.cs
@@ -757,3 +756,4 @@ C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Vi
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationPartial.cshtml.g.cs
 C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\Final-main\MyFinallyProje\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs

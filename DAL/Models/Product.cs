@@ -25,7 +25,6 @@ namespace DAL.Models
         [NotMapped]
         public List<IFormFile> ImageFile { get; set; }
         public ICollection<ProductImage> ProductImage { get; set; }
-
-
+        public ICollection<OrderProduct> OrderProducts { get; set; }
     }
 }

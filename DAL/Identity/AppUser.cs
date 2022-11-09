@@ -19,5 +19,8 @@ namespace DAL.Identity
         [NotMapped]
         public IFormFile ProfileImage { get; set; }
         public string FullName { get; set; }
+        public ICollection<Order> Orders { get; set; }
+
+
     }
 }
