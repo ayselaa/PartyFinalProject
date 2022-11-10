@@ -4,6 +4,7 @@ using DAL.Data;
 using DAL.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace MyFinallyProje.Controllers
 {
@@ -30,9 +31,11 @@ namespace MyFinallyProje.Controllers
 
 
         [HttpPost]
-        public IActionResult CreateOrder(OrderVM order)
+        public  async Task<IActionResult> CreateOrder(OrderVM orderVM)
         {
-            return Ok();
+            var data = await _context.Orders.AddAsync(orderVM.Order);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Order");
         }
     }
 }

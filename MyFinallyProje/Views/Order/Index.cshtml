@@ -34,21 +34,21 @@
                    </div>
                    <div class="billing-address">
                        <h4>Shipping Address</h4>
-                       <select asp-for="@Model.City" name="" id="">
+                       <select asp-for="@Model.Order.City" name="" id="" style="padding:10px;">
                            <option value="Baku">Baku</option>
                            <option value="Ismaily">Ismaily</option>
                            <option value="Ganja">Ganja</option>
                            <option value="Lankaran">Lankaran</option>
                        </select>
                        <div class="name-surname">
-                           <input type="text" asp-for="@Model.FirstName" placeholder="First Name">
-                           <input type="text" asp-for="@Model.LastName" placeholder="Last Name">
+                           <input type="text" asp-for="@Model.Order.FirstName" placeholder="First Name">
+                                <input type="text" asp-for="@Model.Order.LastName" placeholder="Last Name">
                        </div>
-                       <input type="text" asp-for="@Model.Adress" placeholder="Address">
-                       <input type="text"asp-for="@Model.Email" placeholder="Email">
+                            <input type="text" asp-for="@Model.Order.Adress" placeholder="Address">
+                            <input type="text" asp-for="@Model.Order.Email" placeholder="Email">
                        <div class="post-code">
-                           <input type="text" asp-for="@Model.PostalCode" placeholder="Postal code">
-                           <input type="text" asp-for="@Model.PhoneNumber" placeholder="Phone Number">
+                                <input type="text" asp-for="@Model.Order.PostalCode" placeholder="Postal code">
+                                <input type="text" asp-for="@Model.Order.PhoneNumber" placeholder="Phone Number">
                        </div>
                    </div>
                    <div class="submit mb-5">

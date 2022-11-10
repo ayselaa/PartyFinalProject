@@ -236,15 +236,15 @@
   align-items: center;
 }
 
-.checkout-detail .container .row .left-side form .submit button {
-  width: 220px;
-  padding: 5px 5px 5px 5px;
-  height: 7rem;
-  border-radius: 10px;
-  background-color: #06c;
-  margin-right: 2rem;
-  color: white;
-}
+    .checkout-detail .container .row .left-side form .submit button {
+        width: 220px;
+        padding: 5px 5px 5px 5px;
+        height: 7rem;
+        border-radius: 10px;
+        background-color: #e9204f;
+        margin-right: 2rem;
+        color: white;
+    }
 
 .checkout-detail .container .row .right-side {
   border-left: 0.7px solid #9ecec4;
