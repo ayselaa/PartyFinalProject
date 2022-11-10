@@ -268,7 +268,7 @@ namespace MyFinallyProje.Controllers
             using var smtp = new SmtpClient();
 
             smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
-            smtp.Authenticate("ayselabilovaa12@gmail.com", "PartyHome");
+            smtp.Authenticate("ayselabilovaa12@gmail.com", "zzrwnzlbuzqglzmn\r\n");
             smtp.Send(message);
             smtp.Disconnect(true);
             return RedirectToAction("Index", "Home");

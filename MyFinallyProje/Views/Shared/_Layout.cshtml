@@ -132,7 +132,7 @@
 
 
             <div class="container">
-                <div class="shopping-cart">
+                <div class="shopping-cart" style="width: 21%;">
                     <div class="shopping-cart-header">
                         <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">3</span>
                         <div class="shopping-cart-total">
@@ -150,16 +150,22 @@
                             </span>
                         </div>
                     </div>
-
+                    
                     <ul class="shopping-cart-items">
 
                         @foreach (BasketVM basketVM in layoutservices.GetBasket())
                         {
                             <li class="clearfix">
                                 <img src="~/assets/uploads/images/@basketVM.ProductImage.Image.Url" alt="item1" />
-                                <div class=''>
+                                <div class="komkomkomkom">
+                                    
+                                <div class="general-basket">
                                     <span class="item-name d-inline-block">@basketVM.Title</span>
                                     <p> <span class="item-quantity d-inline-block">@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
+                                </div>
+                                <div class="removebas">
+                                    <a class="removebasketitem" asp-action="RemoveFromBasket" asp-controller="shop" asp-route-id="@basketVM.Id"><i class="fa-solid fa-xmark"></i></a>
+                                </div>
                                 </div>
                             </li>
 

@@ -68,14 +68,14 @@
                             </div>
                             <div class="book-info" style="margin-top: 26px;">
                         <h5>@basketVM.Title</h5>
-                         <p> <span class="item-quantity d-inline-block">@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
+                         <p> <span class="item-quantity d-inline-block" style="margin-right:13px;" >@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
                     </div>
                    </div>
                     }
                 
                 <div class="total-price">
-                    <span class="text">Total Price</span>
-                    <span>
+                    <span class="text">Total Price:*</span>
+                        <span style="color:red; font-weight: 600;">
 
                             @{
                                 double total = 0;
