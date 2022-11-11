@@ -925,11 +925,11 @@ html {
 }
 
 
-.removebasketitem i{
-    color:red;
-    margin-left:70px;
-    font-size:20px;
- 
+.removebasketitem i {
+    color: red;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .komkomkomkom{

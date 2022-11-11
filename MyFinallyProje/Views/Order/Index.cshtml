@@ -34,8 +34,8 @@
                    </div>
                    <div class="billing-address">
                        <h4>Shipping Address</h4>
-                       <select asp-for="@Model.Order.City" name="" id="" style="padding:10px;">
-                           <option value="Baku">Baku</option>
+                       <select asp-for="@Model.Order.City"  style="padding:10px;">
+                           <option  value="Baku">Baku</option>
                            <option value="Ismaily">Ismaily</option>
                            <option value="Ganja">Ganja</option>
                            <option value="Lankaran">Lankaran</option>
@@ -52,7 +52,7 @@
                        </div>
                    </div>
                    <div class="submit mb-5">
-                       <button>Continue to Payment</button>
+                            <button type="submit">Continue to Payment</button>
                        <a asp-action="index" asp-controller="basket" class="hfr4jf5b text-decoration-none">Return to cart</a>
                    </div>
                </form>
