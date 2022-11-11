@@ -2,6 +2,7 @@
 using Business.ViewModels;
 using DAL.Data;
 using DAL.Identity;
+using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +16,7 @@ namespace MyFinallyProje.Controllers
     public class OrderController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IProductService _productService;
         private readonly IOrderService _orderservice;
         private readonly UserManager<AppUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
@@ -23,13 +25,15 @@ namespace MyFinallyProje.Controllers
         public OrderController(AppDbContext context,
                               IOrderService orderservice,
                               UserManager<AppUser> userManager,
-                              IHttpContextAccessor httpContextAccessor
+                              IHttpContextAccessor httpContextAccessor,
+                              IProductService productService
                               )
         {
             _context = context;
             _orderservice = orderservice;
             _userManager = userManager;
              _httpContextAccessor=  httpContextAccessor;
+            _productService = productService;
         }
        
         public  IActionResult Index()
@@ -50,13 +54,24 @@ namespace MyFinallyProje.Controllers
             orderVM.Order.AppUser = user;
 
             var data = await _context.Orders.AddAsync(orderVM.Order);
-
+            OrderProduct orderp = new OrderProduct();
             _context.SaveChanges();
+            
+            foreach (var item in basketVMs)
+            {
+                var product = await _productService.Get(item.Id);
+                orderp.Order = orderVM.Order;
+                orderp.Product = product;
+                _context.OrderProducts.Add(orderp);
+                _context.SaveChanges();
+
+            }
             return RedirectToAction("Payment", "Order");
         }
         
         public IActionResult Payment()
         {
+           
             return View();
         }
     }

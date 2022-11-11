@@ -1,4 +1,5 @@
 ﻿
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 <div class="container">
@@ -19,8 +20,8 @@
         </div>
         <div class="col-lg-4 mb-lg-0 mb-3">
             <div class="card p-3">
-                <div class="img-box">
-                    <img src="https://www.freepnglogos.com/uploads/mastercard-png/file-mastercard-logo-svg-wikimedia-commons-4.png"
+                <div class="img-box" >
+                    <img style="width:67%;" src="https://www.freepnglogos.com/uploads/mastercard-png/file-mastercard-logo-svg-wikimedia-commons-4.png"
                          alt="">
                 </div>
                 <div class="number">
@@ -34,8 +35,8 @@
         </div>
         <div class="col-lg-4 mb-lg-0 mb-3">
             <div class="card p-3">
-                <div class="img-box">
-                    <img src="https://www.freepnglogos.com/uploads/discover-png-logo/credit-cards-discover-png-logo-4.png"
+                <div class="img-box" >
+                    <img style="width:55%;" src="https://www.freepnglogos.com/uploads/discover-png-logo/credit-cards-discover-png-logo-4.png"
                          alt="">
                 </div>
                 <div class="number">
@@ -155,7 +156,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <div class="btn btn-primary w-100">Sumbit</div>
+                                            <div id="payment" class="btn btn-primary w-100">Make Payment</div>
                                         </div>
                                     </div>
                                 </form>
@@ -165,10 +166,21 @@
                 </div>
             </div>
         </div>
-        <div class="col-12">
-            <div class="btn btn-primary payment">
-                Make Payment
-            </div>
-        </div>
     </div>
 </div>
+
+<script>
+    const payment = document.getElementById("payment")
+
+    payment.addEventListener('click', async function () {
+        debugger
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Sifarisiniz qeydə alindi!',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    })
+
+</script>

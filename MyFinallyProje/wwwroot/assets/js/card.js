@@ -1,4 +1,4 @@
-searchForm = document.querySelector('.search-form');
+﻿searchForm = document.querySelector('.search-form');
 
 //document.querySelector('#search-btn').onclick = () =>{
 //  searchForm.classList.toggle('active');
@@ -125,3 +125,8 @@ for (var i = 0; i < addBasketBtn.length; i++)
         toastr.warning("Product added to cart!");
     });
 }
+
+
+
+
+
