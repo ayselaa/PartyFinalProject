@@ -1,11 +1,9 @@
 ﻿using DAL.Base;
 using DAL.Entity;
 using Microsoft.AspNetCore.Http;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace DAL.Models
 {
@@ -22,7 +20,7 @@ namespace DAL.Models
         [Required]
         public string Address { get; set; }
 
-        [DataType(DataType.PhoneNumber, ErrorMessage = "Number is not valid") ]
+        [DataType(DataType.PhoneNumber, ErrorMessage = "Number is not valid")]
         [Required, MaxLength(20)]
         public string Number { get; set; }
         public int? TeamDetailId { get; set; }

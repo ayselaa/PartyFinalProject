@@ -1,5 +1,4 @@
-﻿using DAL.Migrations;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MyFinallyProje.Areas.Admin.Controllers

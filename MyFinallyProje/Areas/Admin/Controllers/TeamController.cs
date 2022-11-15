@@ -1,6 +1,5 @@
 ﻿using Business.Services;
 using DAL.Data;
-using DAL.Migrations;
 using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;

@@ -1,15 +1,12 @@
 ﻿using Business.Services;
 using DAL.Data;
-using DAL.Migrations;
 using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyFinallyProje.Areas.Admin.Controllers
@@ -23,22 +20,22 @@ namespace MyFinallyProje.Areas.Admin.Controllers
         private readonly IProductDetailService _productDetailService;
         private readonly IWebHostEnvironment _env;
         private readonly IImageService _ımageService;
-    
+
         public ProductController(AppDbContext context,
-                                   IProductService productService, 
+                                   IProductService productService,
                                    IWebHostEnvironment env,
                                    IImageService ımageService,
                                    IProductDetailService productDetailService)
         {
-            _context=context;
+            _context = context;
             _productService = productService;
             _env = env;
             _ımageService = ımageService;
-            _productDetailService=productDetailService;
+            _productDetailService = productDetailService;
         }
 
 
-        public async Task <IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             var data = await _productService.GetAll();
             return View(data);
@@ -118,7 +115,7 @@ namespace MyFinallyProje.Areas.Admin.Controllers
             return View();
         }
 
-    
+
         [HttpPost]
         public async Task<IActionResult> Update(int id, Product product)
         {
@@ -131,9 +128,9 @@ namespace MyFinallyProje.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             await _productService.Delete(id);
-            
+
 
             return RedirectToAction(nameof(Index));
         }
-    }      
+    }
 }

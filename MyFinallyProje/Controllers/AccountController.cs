@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MimeKit;
 using MimeKit.Text;
-using System;
 using System.IO;
 using System.Threading.Tasks;
 using static Utilities.Helpers.Enums;
@@ -16,13 +15,11 @@ namespace MyFinallyProje.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager <AppUser> _userManager;
+        private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IWebHostEnvironment _env;
 
-
-      
         public AccountController(
             UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
@@ -37,7 +34,7 @@ namespace MyFinallyProje.Controllers
         }
 
         #region Register
-        [HttpGet (nameof(Register))]
+        [HttpGet(nameof(Register))]
         public IActionResult Register()
         {
             return View();
@@ -49,7 +46,7 @@ namespace MyFinallyProje.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 return Json("Ok");
-            } 
+            }
 
             if (!ModelState.IsValid)
             {
@@ -89,7 +86,7 @@ namespace MyFinallyProje.Controllers
 
             var message = new MimeMessage();
 
-           
+
             message.From.Add(new MailboxAddress("Event Menegment System", "ayselabilovaa12@gmail.com"));
 
             message.To.Add(new MailboxAddress(appUser.FullName, appUser.Email));
@@ -110,7 +107,7 @@ namespace MyFinallyProje.Controllers
             message.Body = new TextPart(TextFormat.Html) { Text = emailbody };
 
             using var smtp = new SmtpClient();
-            
+
 
             smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
             smtp.Authenticate("ayselabilovaa12@gmail.com", "zzrwnzlbuzqglzmn\r\n");

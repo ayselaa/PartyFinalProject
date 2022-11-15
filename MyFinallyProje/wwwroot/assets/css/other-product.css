@@ -1,0 +1,53 @@
+﻿.maincontainer {
+    width: 280px;
+    height: 299px;
+    margin: 10px;
+    float: left;
+}
+img {
+    border-radius: 10px;
+}
+
+
+
+.maincontainer > .front {
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    width: 302px;
+    height: 290px;
+    backface-visibility: hidden; 
+    transition: transform .6s linear 0s;
+}
+
+.maincontainer > .back {
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    width: 302px;
+    height: 290px;
+    padding: 5px;
+    backface-visibility: hidden;
+    transition: transform .6s linear 0s;
+}
+
+.maincontainer:hover > .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.pro-rol-title{
+    text-align:center;
+}
+
+.pro-bashliq {
+    margin-top: 8%;
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+  
+}
+
+
+

@@ -3,11 +3,8 @@ using DAL.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Services
 {
@@ -30,7 +27,7 @@ namespace Business.Services
             if (basket != null)
             {
                 basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
-                if (basketVMs.Count >0)
+                if (basketVMs.Count > 0)
                 {
                     foreach (BasketVM basketVM in basketVMs)
                     {

@@ -1,0 +1,83 @@
+﻿@model List<Order>
+
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Sifarisler</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="dashboard" asp-action="index">Go Back</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                FırstName
+                            </th>
+                            <th>
+                                LastName
+                            </th>
+                            <th>
+                                Cıty
+                            </th>
+                            <th>
+                                Address
+                            </th>
+                            <th>
+                                Emaıl
+                            </th>
+
+                            <th>
+                                Postal Code
+                            </th>
+                            
+                            <th>
+                                Phone Number
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                       
+                       
+                                @foreach (var order in Model)
+                              {
+                              <tr>
+                                <td>
+                                @order.FirstName
+                              </td>
+                                <td>
+                                @order.LastName
+                              </td>
+                                <td>
+                                @order.City
+                              </td>
+                                <td>
+                                 @order.Adress
+                                </td>
+                                <td>
+                                 @order.Email
+                                </td>
+                               <td>
+                                 @order.PostalCode
+                                </td>
+                                <td>
+                                @order.PhoneNumber
+                                </td>
+                                <td>
+                                    <a asp-area="admin" asp-controller="order" asp-action="details" asp-route-id="@order.Id" class="btn btn-danger m-1">Detaıls</a>
+                                <a asp-area="admin" asp-controller="order" asp-action="delete" asp-route-id="@order.Id" class="btn btn-danger m-1">Delete</a>
+                                </td>
+                            </tr>
+                                
+                            }
+                   
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

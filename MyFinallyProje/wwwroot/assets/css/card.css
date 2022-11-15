@@ -207,13 +207,26 @@
   border-radius: 8px;
 }
 
+input:focus{
+    outline:0;
+}
+
+.cdata {
+    color: #444444;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.daddr {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .checkout-detail .container .row .left-side form .billing-address input {
-  width: 100%;
-  border: 1px solid #8fc7bc;
-  height: 6rem;
-  margin-bottom: 2rem;
-  padding: 0 0 0 15px;
-  border-radius: 8px;
+    width: 100%;
+    border: 1px solid #8fc7bc;
+    height: 6rem;
+    margin-bottom: 2rem;
+    padding: 0 0 0 15px;
+    border-radius: 8px;
 }
 
 .checkout-detail .container .row .left-side form .billing-address .post-code {
@@ -341,6 +354,19 @@
 
 .toast-warning {
     background-color: #51a351;
+}
+
+.ordermakebtn {
+    background: #e9204f;
+    width: 18rem;
+    padding: 2rem;
+}
+
+.orderbacksss {
+    background: #000;
+    width: 18rem;
+    margin-left: 5rem;
+    padding: 2rem;
 }
 
 

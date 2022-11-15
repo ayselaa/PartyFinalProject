@@ -1,10 +1,8 @@
 ﻿using DAL.Base;
 using DAL.Entity;
 using DAL.Identity;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace DAL.Models
 {

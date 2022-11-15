@@ -1,13 +1,9 @@
 ﻿using Business.Services;
 using DAL.Data;
-using DAL.Migrations;
 using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Threading.Tasks;
 
 namespace MyFinallyProje.Areas.Admin.Controllers

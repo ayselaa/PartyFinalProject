@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Business.Repositories
@@ -19,7 +18,7 @@ namespace Business.Repositories
             _context = context;
         }
         public async Task Create(Order entity)
-        { 
+        {
             entity.CreatedDate = DateTime.UtcNow.AddHours(4);
             await _context.Orders.AddAsync(entity);
             await _context.SaveChangesAsync();
@@ -42,6 +41,7 @@ namespace Business.Repositories
             var data = await _context.Orders.Where(n => n.Id == id && !n.IsDeleted)
                                                              .Include(n => n.OrderProducts)
                                                              .ThenInclude(n => n.Product)
+                                                             .ThenInclude(m => m.ProductImage)
                                                              .Include(n => n.AppUser)
                                                              .FirstOrDefaultAsync();
             if (data is null)
@@ -56,8 +56,7 @@ namespace Business.Repositories
             var data = await _context.Orders.Where(n => !n.IsDeleted)
                                                                                 .Include(n => n.OrderProducts)
                                                                                 .ThenInclude(n => n.Product)
-                                                                                .Include(n=> n.AppUser)
-
+                                                                                .Include(n => n.AppUser)
                                                                                 .ToListAsync();
 
             if (data is null)
@@ -70,7 +69,7 @@ namespace Business.Repositories
         public async Task Update(int id, Order entity)
         {
             var data = await Get(id);
-            data.Adress= entity.Adress;
+            data.Adress = entity.Adress;
             data.LastName = entity.LastName;
             data.FirstName = entity.FirstName;
             data.Email = entity.Email;

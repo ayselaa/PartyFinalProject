@@ -1,0 +1,61 @@
+﻿@model  Order
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Products</h1>
+            <div class="d-flex justify-content-between my-3">
+                <a class="btn btn-success text-white" asp-area="admin" asp-controller="order" asp-action="index">Go Back</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Title
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                  
+                           </tr>
+                    </thead>
+                    <tbody>
+
+                       @foreach (var item in Model.OrderProducts)
+                      {
+                            <tr>
+                              
+                                <td>
+@*                                      <img width="100" src="~/assets/uploads/images/@item." alt="image">
+*@                                </td>
+                                   
+                          
+
+                                <td>
+                                    @item.Product.Title
+                                </td>
+
+                                <td>
+                                    @item.Product.Description
+                                </td>
+
+                                <td>
+                                    @item.Product.Price
+                                </td>
+
+                            </tr>
+                      }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

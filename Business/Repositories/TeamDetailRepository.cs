@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Business.Repositories
@@ -73,7 +72,7 @@ namespace Business.Repositories
             }
 
             data.Title = entity.Title;
-            data.Address = entity.Address;  
+            data.Address = entity.Address;
             data.Email = entity.Email;
             data.Job = entity.Job;
             data.Number = entity.Number;

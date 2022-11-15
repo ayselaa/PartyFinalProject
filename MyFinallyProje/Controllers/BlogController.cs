@@ -4,8 +4,6 @@ using DAL.Data;
 using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyFinallyProje.Controllers
@@ -29,7 +27,7 @@ namespace MyFinallyProje.Controllers
             _blogDetailsService = blogDetailsService;
             _categoryService = categoryService;
         }
-        public async Task <IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             BlogVM blogVm = new BlogVM();
 

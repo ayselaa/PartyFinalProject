@@ -927,9 +927,10 @@ html {
 
 .removebasketitem i {
     color: red;
-    margin-left: 50px;
+    margin-left: 49px;
     font-size: 20px;
     margin-top: 20px;
+    margin-right: 16px;
 }
 
 .komkomkomkom{

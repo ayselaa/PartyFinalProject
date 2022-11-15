@@ -3,13 +3,11 @@ using Business.ViewModels;
 using DAL.Data;
 using DAL.Identity;
 using DAL.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -35,7 +33,7 @@ namespace MyFinallyProje.Controllers
             _productDetailService = productDetailService;
             _userManager = userManager;
         }
-        public async Task <IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
 
             ShopVM shopVm = new ShopVM();
@@ -48,7 +46,7 @@ namespace MyFinallyProje.Controllers
         }
         public IActionResult Detail(int? Id)
         {
-            Product product =  _context.Products.Include(n => n.ProductDetail).Include(n => n.ProductImage).ThenInclude(n => n.Image).FirstOrDefault(s => s.Id == Id);
+            Product product = _context.Products.Include(n => n.ProductDetail).Include(n => n.ProductImage).ThenInclude(n => n.Image).FirstOrDefault(s => s.Id == Id);
 
             return View(product);
         }
@@ -97,7 +95,7 @@ namespace MyFinallyProje.Controllers
 
             HttpContext.Response.Cookies.Append("basket", prod);
 
-            return Ok();
+            return Ok(basketVMs);
         }
 
         #endregion
@@ -108,7 +106,7 @@ namespace MyFinallyProje.Controllers
             if (id == null) return BadRequest();
 
             AppUser member = null;
-            
+
             if (User.Identity.IsAuthenticated)
             {
                 member = await _userManager.Users.FirstOrDefaultAsync(x =>
@@ -125,7 +123,7 @@ namespace MyFinallyProje.Controllers
                 string prod = JsonConvert.SerializeObject(basketVMs);
                 HttpContext.Response.Cookies.Append("basket", prod);
             }
-            return RedirectToAction("Index","Basket");
+            return RedirectToAction("Index", "Shop");
         }
 
         #endregion

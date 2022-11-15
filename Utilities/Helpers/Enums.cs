@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Utilities.Helpers
+﻿namespace Utilities.Helpers
 {
     public static class Enums
     {
@@ -22,8 +18,8 @@ namespace Utilities.Helpers
             Manager,
             Photographer
 
-            
-   
+
+
         }
     }
 }

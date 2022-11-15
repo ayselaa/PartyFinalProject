@@ -29,25 +29,25 @@ namespace MyFinallyProje.Controllers
         {
             _homeBoxService = homeBoxService;
             _serviceService = serviceService;
-           _serviceDetailService= serviceDetailService;
+            _serviceDetailService = serviceDetailService;
             _ımageService = ımageService;
             _context = context;
             _blogService = blogService;
-            _blogDetailsService= blogDetailsService;
+            _blogDetailsService = blogDetailsService;
             _galleryService = galleryService;
 
         }
-        public async Task <IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             HomeVM homeVm = new HomeVM();
 
             homeVm.HomeBoxes = await _homeBoxService.GetAll();
-            homeVm.Services =await _context.Services.Include(s=>s.ServiceDetail).ToListAsync();
+            homeVm.Services = await _context.Services.Include(s => s.ServiceDetail).ToListAsync();
             homeVm.ServiceDetails = await _serviceDetailService.GetAll();
             homeVm.Images = await _ımageService.GetAll();
             homeVm.Blogs = await _blogService.GetAll();
             homeVm.BlogDetails = await _blogDetailsService.GetAll();
-            homeVm.Galleries= await _galleryService.GetAll();
+            homeVm.Galleries = await _galleryService.GetAll();
 
             return View(homeVm);
         }

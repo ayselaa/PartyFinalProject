@@ -1,0 +1,130 @@
+﻿@inject LayoutService layoutservices;
+ @model OrderVM
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<main>
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>CHECKOUT</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container">
+                        <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" asp-action="CreateOrder" asp-controller="order" class="text-white">Checkout</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<section class="checkout-detail mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 left-side">
+               <form id="myForm" method="post" asp-controller="Order" asp-action="CreateOrder" >
+
+                
+                   <div class="billing-address">
+                            <div class="text-danger text-center" style="font-weight: 600;" asp-validation-summary="All"></div>
+                       <h4 class="daddr">Delivery Address</h4>
+
+                       <select id="city" asp-for="@Model.Order.City" style="padding:10px; outline: 0;">
+                           <option  value="Baku">28 May</option>
+                           <option value="Ismaily">Koroglu</option>
+                           <option value="Ganja">Hezi Aslanov</option>
+                           <option value="Lankaran">Ahmedli</option>
+                           <option value="Lankaran">Nizami</option>
+                           <option value="Lankaran">Insaatcilar</option>
+                           <option value="Lankaran">Elmler Akademiyasi</option>
+                           <option value="Lankaran">Nesimi</option>
+                           <option value="Lankaran">20 Yanvar</option>
+                       </select>
+                        <h4 class="cdata mb-2 mt-5 text-center">Customer Data</h4>
+                          
+                       <div class="name-surname">
+                                <input asp-for="@Model.Order.FirstName" placeholder="Name">
+
+                                <input asp-for="@Model.Order.LastName" placeholder="Surname">
+                       </div>
+
+                                <input asp-for="@Model.Order.Adress" placeholder="Address (home delivery is payable)">
+
+                                <input asp-for="@Model.Order.Email" placeholder="Email">
+                       <div class="post-code">
+
+                                <input asp-for="@Model.Order.PostalCode" placeholder="Postal Code">
+
+                                <input asp-for="@Model.Order.PhoneNumber" placeholder="Phone Number">
+                       </div>
+                   </div>
+                   <div class="submit mb-5">
+
+                            <button type="submit" id="payment">Order Continue</button>
+
+                            <a asp-action="index" asp-controller="basket" class="hfr4jf5b text-decoration-none">Return to cart</a>
+                   </div>
+               </form>
+            </div>
+            <div class="col-lg-5 right-side">
+
+                    @foreach (BasketVM basketVM in layoutservices.GetBasket()){
+                      
+                    <div class="my-product">
+                            <div class="book-image">
+                                <img style="height: 117px;" src="~/assets/uploads/images/@basketVM.ProductImage.Image.Url" alt="item1" />
+                            </div>
+                            <div class="book-info" style="margin-top: 26px;">
+                            <h5>@basketVM.Title</h5>
+                         <p> <span class="item-quantity d-inline-block" style="margin-right:13px;" >@basketVM.Count x</span>$@basketVM.Price.ToString("F2")</p>
+                    </div>
+                   </div>
+                    }
+                
+                <div class="total-price">
+                    <span class="text">Total Price:*</span>
+                        <span style="color:red; font-weight: 600;">
+
+                            @{
+                                double total = 0;
+
+
+                                foreach (BasketVM basketVM in layoutservices.GetBasket())
+                                {
+                                    total += (basketVM.Count * basketVM.Price);
+                                }
+                            }
+                            $@total.ToString("F2")
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+<script>
+    const payment = document.getElementById("payment")
+       if (@ViewBag.Valid=="True") {
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Sifarisiniz qeydə alindi!',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }
+
+    
+
+
+    
+
+</script>                          

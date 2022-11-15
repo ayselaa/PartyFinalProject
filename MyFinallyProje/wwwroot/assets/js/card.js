@@ -95,36 +95,34 @@ toastr.options = {
     "hideMethod": "fadeOut"
 }
 
-//$(document).ready(function () {
-
-//    $(document).on("click", ".addtobasket", function (e) {
-//        e.preventDefault();
-
-//        let url = (this).attr("href");
-//      /*  let quantity = $(".quantity").val();*/
-
-//        fetch(url).then(res => {
-
-//            console.log(res.json())
-
-//            alert("Sebete elave olundu")
-//        })
-
-//    })
-//})
 
 const addBasketBtn = document.querySelectorAll(".addtobasket");
+console.log("test");
 
-for (var i = 0; i < addBasketBtn.length; i++)
-{
+
+
+for (var i = 0; i < addBasketBtn.length; i++) {
     addBasketBtn[i].addEventListener('click', async function () {
         const id = this.nextElementSibling.value;
         const request = await fetch(`/shop/addtobasket/${id}`, {
             method: "POST"
         })
+
+
+        if (request.ok)
+        {
+            location.reload();
+        }
+        
         toastr.warning("Product added to cart!");
     });
 }
+
+
+
+
+
+
 
 
 

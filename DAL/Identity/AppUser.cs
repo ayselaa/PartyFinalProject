@@ -1,10 +1,8 @@
 ﻿using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace DAL.Identity
 {
@@ -12,7 +10,7 @@ namespace DAL.Identity
     {
 
         public string Firstname { get; set; }
-        public string Lastname{ get; set; }
+        public string Lastname { get; set; }
         public bool IsAdmin { get; set; }
 
 

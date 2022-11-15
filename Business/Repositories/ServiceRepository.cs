@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Business.Repositories
@@ -44,7 +43,7 @@ namespace Business.Repositories
                                                              .Include(n => n.ServiceImage)
                                                              .ThenInclude(n => n.Image)
                                                              .Include(n => n.Comments)
-                                                             .ThenInclude(n=> n.AppUser)
+                                                             .ThenInclude(n => n.AppUser)
                                                              .FirstOrDefaultAsync();
             if (data is null)
             {

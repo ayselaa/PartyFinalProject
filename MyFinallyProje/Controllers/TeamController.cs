@@ -1,11 +1,9 @@
-﻿using Business.Repositories;
-using Business.Services;
+﻿using Business.Services;
 using Business.ViewModels;
 using DAL.Data;
 using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyFinallyProje.Controllers
@@ -24,7 +22,7 @@ namespace MyFinallyProje.Controllers
             _teamService = teamService;
             _teamDetailService = teamDetailService;
         }
-        public async Task <IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             TeamVM teamVm = new TeamVM();
 

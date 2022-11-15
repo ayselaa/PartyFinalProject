@@ -6,7 +6,6 @@ using DAL.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -67,18 +66,18 @@ namespace MyFinallyProje.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 member = await _userManager.GetUserAsync(User);
-            Comment comment1 = new Comment()
-            {
-                AppUserId = User.Identity.IsAuthenticated ? member.Id : null,
+                Comment comment1 = new Comment()
+                {
+                    AppUserId = User.Identity.IsAuthenticated ? member.Id : null,
 
-                Username = member.UserName,
-                Email = member.Email,
-                Text = comment.Text,
+                    Username = member.UserName,
+                    Email = member.Email,
+                    Text = comment.Text,
 
-            };
+                };
 
-            await _context.Comments.AddAsync(comment1);
-            await _context.SaveChangesAsync();
+                await _context.Comments.AddAsync(comment1);
+                await _context.SaveChangesAsync();
             }
 
             else
@@ -91,6 +90,6 @@ namespace MyFinallyProje.Controllers
 
         }
 
-     
+
     }
 }

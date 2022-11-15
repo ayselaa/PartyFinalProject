@@ -1,6 +1,5 @@
 ﻿using Business.Services;
 using DAL.Data;
-using DAL.Migrations;
 using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -96,7 +95,7 @@ namespace MyFinallyProje.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-       
+
         public async Task<IActionResult> Details(int? id)
         {
             var data = await _blogService.Get(id);

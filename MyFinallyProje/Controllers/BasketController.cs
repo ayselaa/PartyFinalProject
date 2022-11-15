@@ -1,23 +1,30 @@
-﻿using DAL.Data;
-using DAL.Identity;
-using DAL.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
+﻿using Business.Services;
+using Business.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MyFinallyProje.Controllers
 {
     public class BasketController : Controller
     {
-        
+        private readonly LayoutService _layoutService;
+
+        public BasketController(LayoutService layoutService)
+        {
+            _layoutService = layoutService;
+        }
+
         public IActionResult Index()
         {
-           
+
             return View();
+        }
+
+        public List<BasketVM> GetBaskets()
+        {
+            var datas = _layoutService.GetBasket();
+            return datas;
         }
 
     }

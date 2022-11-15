@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Business.Repositories
@@ -40,7 +39,7 @@ namespace Business.Repositories
                 throw new ArgumentNullException(nameof(id));
             }
 
-            var data = await _context.Reservations.Where(n => n.Id == id && !n.IsDeleted)   
+            var data = await _context.Reservations.Where(n => n.Id == id && !n.IsDeleted)
                                                              .FirstOrDefaultAsync();
             if (data is null)
             {

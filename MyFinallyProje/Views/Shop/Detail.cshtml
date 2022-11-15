@@ -3,154 +3,156 @@
 @{
     Layout = "_SecondLayout";
 }
+
  
-<main> 
- 
-       
+<main>
+
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>@Model.Title</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container d-flex " style="margin-right: -323px;">
+                        <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" asp-action="index" asp-controller="shop" class="text-white">Product Details</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
      <section class="book-content">
       <div class="container">
+          <div class="row">
+                <div class="col-lg-9 col-md-12 content-area shadow mt-5 d-flex">
+                  <div class="product-gallery-detal">
              @foreach (var pro in Model.ProductImage.Where(n => n.ProductId== Model.Id))
    {
           <div class="imggggggg">
-              <img src="~/assets/uploads/images/@pro.Image.Url">
+              <img class="mb-3" src="~/assets/uploads/images/@pro.Image.Url">
+          </div>
+          <div class="pr-img-alt">
+                            <img class="img-fluid ml-4" src="~/assets/img/products/party-shop-7.jpg">
+          </div>
+          <div class="pr-img-alt">
+                            <img class="img-fluid ml-4" src="~/assets/img/products/party-shop-9.jpg">
+           </div>
+          <div class="pr-img-alt">
+                            <img class="img-fluid ml-4" src="~/assets/img/products/party-shop-5.jpg">
           </div>
    }
-      
-          <div class="book-details">
-              <div class="details">
-                  <h1>@Model.Title</h1>
-                  <ul>
-                      <li>Product Name : &nbsp;<span>@Model.Title</span> </li>
-                      <li>Category:  &nbsp;<span>Party Shop</span></li>
-                      <li>Price: &nbsp; <span>$@Model.Price</span></li>
-                  </ul>
-              </div>
+                  </div>
+
+
+                    <div class="summary entry-summary">
+                            <h1 class="title-detal">@Model.Title</h1>
+                            <div class="price-detal">Price: &nbsp; <span>$@Model.Price </span></></div>
+                        <div class="endirmli-qiymet">
+                            <h4 class="product-old-price text-danger"> <span>(discounted price)</span></h4>
+                          
+                        </div>
+
+                        <p class="detal-p-text"> Pellentesque habitant morbi tristique senectus et netus <br />
+                            et malesuada fames ac turpis egestas. Vestibulum tortor  <br />
+                            quam, feugiat vitae, ultricies eget, tempor sit amet, ante.  <br />
+                            Donec eu libero sit amet quam egestas semper.</p>
+              
               <div class="Add-Cart">
                  
                   <div class="btn-cart">
 
                         @if(User.Identity.IsAuthenticated){
-                        <a class="btn btn-primary addtobasket text-white ml-5 mt-5">
-                            Add Basket
+                        <a class="btn basketforbtn addtobasket text-white mt-5 shadow-lg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                            Add To Card
                         </a>
                         }else{
-                            <p>Please Login</p>
+                            <p class="pleaseloginbtn">Please Login</p>
                         }
 
                         
                       <input type="hidden" value="@Model.Id"/>
                   </div>
               </div>
-              <div class="buy-it-now">
-                 <a asp-action="index" asp-controller="shop" role="button">Back Shop</a>
-              </div>    
+             </div>
+              </div>
+                <div class="col-lg-3 col-md-12 sidebar sidebar-right product-sidebar-right widget-area">
+              <div class="hb-detal-img">
+                    <img class="img-hb shadow" src="~/assets/img/detail-hb-america.png">
+                </div>
+
+
+               </div>
+          </div>
+          
+              
           </div>
 
-      </div>
-  </section>
-  <section class="tabs">
-      <div class="container">
-          <div class="tabset">
-              <input type="radio" name="tabset" id="tab1" aria-controls="description" checked>
-              <label for="tab1">DESCRIPTION</label>
-              <input type="radio" name="tabset" id="tab2" aria-controls="bookInformation">
-              <label for="tab2">INFORMATION</label>
+      
+      </section>
   
-              <div class="tab-panels">
-                  <div id="description" class="tab-panel">
-                      <h2>@Model.Description</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem ut deserunt
-                          soluta libero voluptatum mollitia illum sapiente aut natus enim vitae reiciendis,
-                          magnam, laborum quidem fugiat molestias officiis. Sit eum tenetur tempore ipsam
-                          molestias doloribus mollitia incidunt dolore, doloremque ducimus aliquam laborum magnam
-                          aperiam, atque officia deserunt odio! Velit!</p>
-                  </div>
-                  <div id="bookInformation" class="tab-panel">
+    <section>
+        <div class="container">
+                <div class="pro-rol-title">
+                    <h4 class="pro-bashliq">Related Products</h4>
+                </div>
+            <div class="row mt-4">
+            <div class="maincontainer shadow">
+            <div class="back">
+                        <img src="~/assets/img/products/party-shop-4.jpg">
+                    </div>
+            <div class="front">
+                <div class="image">
+                    <img src="~/assets/img/products/party-shop-4.jpg">
+                </div>
+            </div>
+        </div>
+            <div class="maincontainer shadow">
+                <div class="back">
+                        <img src="~/assets/img/products/party-shop-3.jpg">
 
-                      <p><strong>Name:</strong>@Model.Title</p>
-                      <p><strong>Category:</strong>Party Shop</p>
-                      <p><strong>Color:</strong> Special Color</p>
+                </div>
+                <div class="front">
+                    <div class="image">
+                            <img src="~/assets/img/products/party-shop-3.jpg">
+                        </div>
+                </div>
+            </div>
+            <div class="maincontainer shadow">
+                <div class="back">
+                        <img src="~/assets/img/products/party-shop-5.jpg">
+                    </div>
+                <div class="front">
+                    <div class="image">
+                            <img src="~/assets/img/products/party-shop-5.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="maincontainer shadow">
+            <div class="back">
+                        <img src="~/assets/img/products/party-shop-8.jpg">
+                    </div>
+            <div class="front">
+                <div class="image">
+                    <img src="~/assets/img/products/party-shop-8.jpg">
+                </div>
+            </div>
+        </div>
 
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <section class="related-books">
-      <div class="container">
-          <div class="related-title">
-              <h1>RELATED PRODUCTS</h1>
-          </div>
-          <div class="row">
-              <div class="col col-lg-3 col-md-6 col-sm-12">
-                  <div class="card">
-                      <div class="face face1">
-                          <div class="content">
-                              <img src="~/assets/img/products/part-shop-1.jpg">
-                          </div>
-                      </div>
-                      <div class="face face2">
-                          <div class="content">
-                              <div class="content-info text-danger font-weight-bold">
-                                    <span>GIFT BOX</span>
-                                </div>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-lg-3 col-md-6 col-sm-12">
-                  <div class="card">
-                      <div class="face face1">
-                          <div class="content">
-                              <img src="~/assets/img/products/party-shop.jpg">
-                          </div>
-                      </div>
-                      <div class="face face2">
-                          <div class="content">
-                              <div class="content-info text-danger font-weight-bold">
-                                    <span>CAKE</span>
-                              </div>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-lg-3 col-md-6 col-sm-12">
-                  <div class="card">
-                      <div class="face face1">
-                          <div class="content">
-                              <img src="~/assets/img/products/party-shop-3.jpg">
-                          </div>
-                      </div>
-                      <div class="face face2">
-                          <div class="content">
-                              <div class="content-info text-danger font-weight-bold">
-                                    <span>CAKE</span>
-                              </div>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-lg-3 col-md-6 col-sm-12">
-                  <div class="card">
-                      <div class="face face1">
-                          <div class="content">
-                              <img src="~/assets/img/products/party-shop-4.jpg">
-                          </div>
-                      </div>
-                      <div class="face face2">
-                          <div class="content">
-                              <div class="content-info text-danger font-weight-bold">
-                                    <span>Flowers</span>
-                              </div>
-                         </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-
-
+            </div>
+        </div>
+  
+    </section>
 
   </main>
+
+
+
+
+
+
+
+

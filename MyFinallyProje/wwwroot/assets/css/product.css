@@ -162,4 +162,85 @@ a:hover {
   background-color: #444444;
   transform: translateY(-50%);
 }
-/*# sourceMappingURL=product.css.map */
+
+.pr-img-alt {
+    width: 25%;
+    display: inline-block;
+}
+
+    .pr-img-alt img {
+        height: auto;
+        max-width: 100%;
+    }
+
+
+.title-detal {
+    font-family: "Belleza",Arial,Helvetica,sans-serif;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 48px;
+    margin-top: 15px;
+}
+
+.price-detal {
+    color: #dc3545;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.endirmli-qiymet {
+    color: #fd226a;
+    display: inline-block;
+    margin-left: 24%;
+}
+
+.product-gallery-detal{
+    width:40%;
+}
+
+.summary
+{
+    width: 57%;
+}
+
+.product-old-price {
+    font-size: 14px;
+    color: #dca8ad;
+}
+
+.detal-p-text {
+    font-family: "Poppins",Tahoma,Geneva,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #828c96;
+    background-color: #f9f9f9;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.basketforbtn {
+    background: #fa053e;
+    padding: 17px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.img-hb {
+    width: 20%;
+    display: inline-block;
+    width: 585%;
+    margin-left: -8%;
+    margin-top: 79%;
+}
+
+.hb-detal-img{
+    display:inline-block;
+    width:20%;
+}

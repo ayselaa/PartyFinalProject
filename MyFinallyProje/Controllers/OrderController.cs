@@ -6,6 +6,7 @@ using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Win32;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -32,22 +33,35 @@ namespace MyFinallyProje.Controllers
             _context = context;
             _orderservice = orderservice;
             _userManager = userManager;
-             _httpContextAccessor=  httpContextAccessor;
+            _httpContextAccessor = httpContextAccessor;
             _productService = productService;
         }
-       
-        public  IActionResult Index()
+
+      
+        #region Create Order
+        [HttpGet]
+        public IActionResult CreateOrder()
         {
+            ViewBag.Valid = !ModelState.IsValid;
             return View();
         }
 
 
         [HttpPost]
-        public  async Task<IActionResult> CreateOrder(OrderVM orderVM)
+        public async Task<IActionResult> CreateOrder(OrderVM orderVM)
         {
+            
+            if (!ModelState.IsValid)
+            {
+                return View(orderVM);
+            }
+
+
+            ViewBag.Valid = ModelState.IsValid;
+
             string basket = _httpContextAccessor.HttpContext.Request.Cookies["basket"];
             var basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
-           
+
 
             string userName = User.Identity.Name;
             var user = await _userManager.FindByNameAsync(userName);
@@ -56,7 +70,7 @@ namespace MyFinallyProje.Controllers
             var data = await _context.Orders.AddAsync(orderVM.Order);
             OrderProduct orderp = new OrderProduct();
             _context.SaveChanges();
-            
+
             foreach (var item in basketVMs)
             {
                 var product = await _productService.Get(item.Id);
@@ -66,13 +80,9 @@ namespace MyFinallyProje.Controllers
                 _context.SaveChanges();
 
             }
-            return RedirectToAction("Payment", "Order");
-        }
-        
-        public IActionResult Payment()
-        {
-           
             return View();
         }
+        #endregion
     }
+
 }
