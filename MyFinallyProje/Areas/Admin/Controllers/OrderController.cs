@@ -36,6 +36,7 @@ namespace MyFinallyProje.Areas.Admin.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             var data = await _orderService.Get(id);
+            var url = data.OrderProducts.Select(n => n.Product.ProductImage.Select(m => m.Image.Url).FirstOrDefault()).ToList();
 
             return View(data);
         }

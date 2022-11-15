@@ -42,6 +42,7 @@ namespace Business.Repositories
                                                              .Include(n => n.OrderProducts)
                                                              .ThenInclude(n => n.Product)
                                                              .ThenInclude(m => m.ProductImage)
+                                                             .ThenInclude(m => m.Image)
                                                              .Include(n => n.AppUser)
                                                              .FirstOrDefaultAsync();
             if (data is null)
@@ -56,6 +57,8 @@ namespace Business.Repositories
             var data = await _context.Orders.Where(n => !n.IsDeleted)
                                                                                 .Include(n => n.OrderProducts)
                                                                                 .ThenInclude(n => n.Product)
+                                                                                .ThenInclude(m => m.ProductImage)
+                                                                                .ThenInclude(m => m.Image)
                                                                                 .Include(n => n.AppUser)
                                                                                 .ToListAsync();
 
