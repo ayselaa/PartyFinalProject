@@ -51,8 +51,8 @@ namespace MyFinallyProje.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateOrder(OrderVM orderVM)
         {
-            
-            string basket = _httpContextAccessor.HttpContext.Request.Cookies["basket"];
+
+            string basket = null;
             var basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
             orderVM.Alert = "true";
 
@@ -73,6 +73,7 @@ namespace MyFinallyProje.Controllers
                 _context.SaveChanges();
 
             }
+
             return View(orderVM);
         }
 
