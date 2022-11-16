@@ -42,8 +42,9 @@ namespace MyFinallyProje.Controllers
         [HttpGet]
         public IActionResult CreateOrder()
         {
-            ViewBag.Valid = !ModelState.IsValid;
-            return View();
+            OrderVM orderVM = new OrderVM();
+            orderVM.Alert = "false";
+            return View(orderVM);
         }
 
 
@@ -51,17 +52,9 @@ namespace MyFinallyProje.Controllers
         public async Task<IActionResult> CreateOrder(OrderVM orderVM)
         {
             
-            if (!ModelState.IsValid)
-            {
-                return View(orderVM);
-            }
-
-
-            ViewBag.Valid = ModelState.IsValid;
-
             string basket = _httpContextAccessor.HttpContext.Request.Cookies["basket"];
             var basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
-
+            orderVM.Alert = "true";
 
             string userName = User.Identity.Name;
             var user = await _userManager.FindByNameAsync(userName);
@@ -80,8 +73,11 @@ namespace MyFinallyProje.Controllers
                 _context.SaveChanges();
 
             }
-            return View();
+            return View(orderVM);
         }
+
+
+        
         #endregion
     }
 

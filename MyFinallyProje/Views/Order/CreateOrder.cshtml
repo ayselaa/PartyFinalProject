@@ -25,11 +25,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 left-side">
-               <form id="myForm" method="post" asp-controller="Order" asp-action="CreateOrder" >
+              <form method="post" asp-controller="order" asp-action="createorder" onsubmit="CreateOrder()"  id="myForm">
 
                 
                    <div class="billing-address">
-                            <div class="text-danger text-center" style="font-weight: 600;" asp-validation-summary="All"></div>
+                       <div class="text-danger text-center" style="font-weight: 600;" asp-validation-summary="All"></div>
                        <h4 class="daddr">Delivery Address</h4>
 
                        <select id="city" asp-for="@Model.Order.City" style="padding:10px; outline: 0;">
@@ -43,25 +43,27 @@
                            <option value="Lankaran">Nesimi</option>
                            <option value="Lankaran">20 Yanvar</option>
                        </select>
-                        <h4 class="cdata mb-2 mt-5 text-center">Customer Data</h4>
+                       <h4 class="cdata mb-2 mt-5 text-center">Customer Data</h4>
                           
                        <div class="name-surname">
-                                <input asp-for="@Model.Order.FirstName" placeholder="Name">
 
-                                <input asp-for="@Model.Order.LastName" placeholder="Surname">
+                                <input id="name" asp-for="@Model.Order.FirstName" placeholder="Name">
+
+                                <input id="surname" asp-for="@Model.Order.LastName" placeholder="Surname">
                        </div>
 
-                                <input asp-for="@Model.Order.Adress" placeholder="Address (home delivery is payable)">
+                                <input id="address" asp-for="@Model.Order.Adress" placeholder="Address (home delivery is payable)">
 
-                                <input asp-for="@Model.Order.Email" placeholder="Email">
+                                <input id="email" asp-for="@Model.Order.Email" placeholder="Email">
+
                        <div class="post-code">
 
-                                <input asp-for="@Model.Order.PostalCode" placeholder="Postal Code">
+                                <input id="postalcode" asp-for="@Model.Order.PostalCode" placeholder="Postal Code">
 
-                                <input asp-for="@Model.Order.PhoneNumber" placeholder="Phone Number">
+                                <input id="phonenumber" asp-for="@Model.Order.PhoneNumber" placeholder="Phone Number">
                        </div>
-                   </div>
-                   <div class="submit mb-5">
+                    </div>
+                    <div class="submit mb-5">
 
                             <button type="submit" id="payment">Order Continue</button>
 
@@ -109,22 +111,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js" integrity="sha512-1Gn7//DzfuF67BGkg97Oc6jPN6hqxuZXnaTpC9P5uw8C6W4yUNj5hoS/APga4g1nO2X6USBb/rXtGzADdaVDeA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    const payment = document.getElementById("payment")
-       if (@ViewBag.Valid=="True") {
-            Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Sifarisiniz qeydə alindi!',
-                showConfirmButton: false,
-                timer: 1500
-            })
-        }
-
-    
-
-
-    
-
+    let alert = @Model.Alert;
+    console.log(alert);
+    if(alert == true)
+    {
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Sıfarısınız qeydə alındı!',
+            showConfirmButton: false,
+            timer: 1500
+        })
+        
+    }
 </script>                          

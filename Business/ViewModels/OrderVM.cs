@@ -8,6 +8,7 @@ namespace Business.ViewModels
         public Order Order { get; set; }
         public ICollection<Order> Orders { get; set; }
         public ProductImage ProductImage { get; set; }
+        public string Alert { get; set; } = "false";
 
     }
 }
