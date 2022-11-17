@@ -6,7 +6,6 @@ using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Win32;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -37,7 +36,7 @@ namespace MyFinallyProje.Controllers
             _productService = productService;
         }
 
-      
+
         #region Create Order
         [HttpGet]
         public IActionResult CreateOrder()
@@ -52,7 +51,7 @@ namespace MyFinallyProje.Controllers
         public async Task<IActionResult> CreateOrder(OrderVM orderVM)
         {
 
-            string basket = null;
+            string basket = _httpContextAccessor.HttpContext.Request.Cookies["basket"];
             var basketVMs = JsonConvert.DeserializeObject<List<BasketVM>>(basket);
             orderVM.Alert = "true";
 
@@ -78,7 +77,7 @@ namespace MyFinallyProje.Controllers
         }
 
 
-        
+
         #endregion
     }
 

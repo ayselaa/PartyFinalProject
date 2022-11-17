@@ -33,17 +33,49 @@ namespace MyFinallyProje.Controllers
             _productDetailService = productDetailService;
             _userManager = userManager;
         }
-        public async Task<IActionResult> Index()
+
+        public async Task<IActionResult> Index(int id)
         {
 
             ShopVM shopVm = new ShopVM();
 
             shopVm.Products = await _productService.GetAll();
-            shopVm.ProductDetails = await _productDetailService.GetAll();
 
+            List<Category> categories = _context.Categories.ToList();
+
+
+            if (id != 0)
+            {
+                shopVm.Products = shopVm.Products.Where(n => n.Category.Id == id).ToList();
+            }
+
+            ViewBag.Categories = categories;
 
             return View(shopVm);
+
         }
+
+        //public async Task<IActionResult> CategoryFilter(int id)
+        //{
+
+        //    ShopVM shopVm = new ShopVM();
+
+        //    shopVm.Products = await _productService.GetAll();
+            
+        //    List<Category> categories = _context.Categories.ToList();
+
+
+        //    ViewBag.Categories = categories;
+
+        //    return View(shopVm);
+
+        //}
+
+
+
+
+
+
         public IActionResult Detail(int? Id)
         {
             Product product = _context.Products.Include(n => n.ProductDetail).Include(n => n.ProductImage).ThenInclude(n => n.Image).FirstOrDefault(s => s.Id == Id);

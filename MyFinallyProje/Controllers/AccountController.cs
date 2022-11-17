@@ -145,10 +145,7 @@ namespace MyFinallyProje.Controllers
         [HttpPost(nameof(Login))]
         public async Task<IActionResult> Login(LoginVM loginVm)
         {
-            if (User.Identity.IsAuthenticated)
-            {
-                return Json("Ok");
-            }
+            
 
             if (!ModelState.IsValid)
             {

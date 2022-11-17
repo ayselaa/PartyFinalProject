@@ -422,6 +422,9 @@ namespace DAL.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -447,6 +450,8 @@ namespace DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.HasIndex("ProductDetailId")
                         .IsUnique()
@@ -555,9 +560,6 @@ namespace DAL.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CategoryId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -582,10 +584,6 @@ namespace DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CategoryId")
-                        .IsUnique()
-                        .HasFilter("[CategoryId] IS NOT NULL");
 
                     b.HasIndex("ServiceDetailId")
                         .IsUnique()
@@ -959,6 +957,10 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("DAL.Models.Product", b =>
                 {
+                    b.HasOne("DAL.Models.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId");
+
                     b.HasOne("DAL.Models.ProductDetail", "ProductDetail")
                         .WithOne("Product")
                         .HasForeignKey("DAL.Models.Product", "ProductDetailId");
@@ -981,10 +983,6 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("DAL.Models.Service", b =>
                 {
-                    b.HasOne("DAL.Models.Category", "Category")
-                        .WithOne("Service")
-                        .HasForeignKey("DAL.Models.Service", "CategoryId");
-
                     b.HasOne("DAL.Models.ServiceDetail", "ServiceDetail")
                         .WithOne("Service")
                         .HasForeignKey("DAL.Models.Service", "ServiceDetailId");

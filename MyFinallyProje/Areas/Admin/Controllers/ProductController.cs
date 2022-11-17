@@ -4,9 +4,11 @@ using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyFinallyProje.Areas.Admin.Controllers
@@ -109,13 +111,13 @@ namespace MyFinallyProje.Areas.Admin.Controllers
 
         }
 
+       
         [HttpGet]
-        public IActionResult Update()
+        public async Task<IActionResult> Update(int id)
         {
-            return View();
+            Product product = await _context.Products.Where(n => n.Id == id).FirstOrDefaultAsync();
+            return View(product);
         }
-
-
         [HttpPost]
         public async Task<IActionResult> Update(int id, Product product)
         {

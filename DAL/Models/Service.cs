@@ -15,8 +15,7 @@ namespace DAL.Models
         public string Text2 { get; set; }
         public int? ServiceDetailId { get; set; }
         public ServiceDetail ServiceDetail { get; set; }
-        public int? CategoryId { get; set; }
-        public Category Category { get; set; }
+      
         [NotMapped]
         public List<IFormFile> ImageFile { get; set; }
         public ICollection<ServiceImage> ServiceImage { get; set; }

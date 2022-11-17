@@ -1,6 +1,9 @@
-﻿   
+﻿ 
  @model ShopVM
-
+@{
+    string url = "https://localhost:5001/assets/uploads/images/";
+    string imgUrl = "";
+}
        <main>
     <div class="carousel-inner">
         <div class="ttm-page-title-row text-center">
@@ -32,32 +35,50 @@
                 <div class="row">
 
 
-                    @foreach (var product in Model.Products)
-                   {
-                       
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div id="product-1" class="single-product">
-                            @foreach (var img in product.ProductImage)
-                           {
-                            <div class="part-1" style="background:  url('./assets/uploads/images/@img.Image.Url')">
-                                <ul>
-                                        <li><a asp-controller="Shop" asp-action="Detail" asp-route-id="@product.Id"><i class="fas fa-shopping-cart"></i></a></li>
-                                    <li><a ><i class="fas fa-plus"></i></a></li>
-                                </ul>
-                            </div>
-                           }
-                            <div class="part-2">
-                                <a> <h3 class="product-title text-center">@product.Title</h3></a>
-                               
+                   <div class="col-9">
+                    <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
 
-                                <h4 class="product-old-price text-danger">$90.99</h4>
-                                <h4 class="product-price text-danger">$@product.Price</h4>
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <div id="product-1" class="single-product">
+                                    @foreach (var img in product.ProductImage)
+                                    {
+                                        imgUrl = url + img.Image.Url;
+                                        <div class="part-1" style="background:  url(@imgUrl); background-size: cover;">
+                                            <ul>
+                                                <li><a asp-controller="Shop" asp-action="Detail" asp-route-id="@product.Id"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a><i class="fas fa-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    }
+                                    <div class="part-2">
+                                        <a> <h3 class="product-title text-center">@product.Title</h3></a>
+
+
+                                        <h4 class="product-old-price text-danger">$90.99</h4>
+                                        <h4 class="product-price text-danger">$@product.Price</h4>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+
+                        }
                     </div>
+                </div>
+                <div class="col-3">
+                    <aside class="widget widget-Categories mt-5 ">
 
-                   }
+                        <h3 class="widget-title mb-4 mt-3 text-center">Categories</h3>
+                        <ul class="categoriyalar-menu">
+                            @foreach (var item in ViewBag.Categories)
+                           {
+                                <li><a  asp-controller="shop" asp-route-id="@item.Id">> &nbsp; @item.Name</a></li>
+                               
+                           }
+                        </ul>
+                    </aside>
 
+                </div>
                 </div>
             </div>
         </section>

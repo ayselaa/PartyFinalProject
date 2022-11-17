@@ -75,11 +75,11 @@ namespace MyFinallyProje
         {
             if (env.IsDevelopment())
             {
-                app.UseExceptionHandler("/Service/ErrorPage");
+                app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseExceptionHandler("/Service/ErrorPage");
+                app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
 

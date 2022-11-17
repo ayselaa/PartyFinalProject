@@ -54,6 +54,7 @@ namespace Business.Repositories
         public async Task<List<Product>> GetAll()
         {
             var data = await _context.Products.Where(n => !n.IsDeleted)
+                                                                                .Include(n => n.Category)
                                                                                 .Include(n => n.ProductImage)
                                                                                  .ThenInclude(n => n.Image)
                                                                                 .ToListAsync();

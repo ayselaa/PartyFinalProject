@@ -1,0 +1,81 @@
+﻿@model ShopVM
+
+<main>
+    <div class="carousel-inner">
+        <div class="ttm-page-title-row text-center">
+            <div class="title-box text-center">
+                <div class="contact-title">
+                    <h1>PRODUCTS</h1>
+                </div>
+                <div class="breadcrumb-wrapper">
+                    <div class="container">
+                        <span><a class="text-white" title="Homepage" asp-action="index" asp-controller="home"><i class="fa fa-home text-white"></i>&nbsp;&nbsp;Home</a></span>
+                        <span class="ttm-bread-sep text-white"> &nbsp; ⁄ &nbsp;</span>
+                        <span><a title="" asp-action="index" asp-controller="shop" class="text-white">Shop</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-products">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="header justify-content-center text-aligin-center">
+                        <h3>Featured Product</h3>
+                        <h2>Popular Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="col-9">
+                    <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <div id="product-1" class="single-product">
+                                    @foreach (var img in product.ProductImage)
+                                    {
+                                        <div class="part-1" style="background:  url('./assets/uploads/images/@img.Image.Url'); background-size: cover;">
+                                            <ul>
+                                                <li><a asp-controller="Shop" asp-action="Detail" asp-route-id="@product.Id"><i class="fas fa-shopping-cart"></i></a></li>
+                                                <li><a><i class="fas fa-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    }
+                                    <div class="part-2">
+                                        <a> <h3 class="product-title text-center">@product.Title</h3></a>
+
+
+                                        <h4 class="product-old-price text-danger">$90.99</h4>
+                                        <h4 class="product-price text-danger">$@product.Price</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+                <div class="col-3">
+                    <aside class="widget widget-Categories mt-5 ">
+
+                        <h3 class="widget-title mb-4 mt-3 text-center">Categories</h3>
+                        <ul class="categoriyalar-menu">
+                            @foreach (var item in ViewBag.Categories)
+                            {
+                                <li><a asp-action="CategoryFilter" asp-controller="shop" asp-route-id="@item.Id">> &nbsp; @item.Name</a></li>
+
+                            }
+                        </ul>
+                    </aside>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

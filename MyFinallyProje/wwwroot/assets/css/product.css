@@ -63,23 +63,23 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-  background: url("../img/products/part-shop-1.jpg") no-repeat center;
+  /*background: url("../img/products/part-shop-1.jpg") no-repeat center;*/
   background-size: cover;
   transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-  background: url("../img/products/party-shop-2.jpg") no-repeat center;
+  /*background: url("../img/products/party-shop-2.jpg") no-repeat center;*/
   background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-  background: url("../img/products/party-shop-3.jpg") no-repeat center;
+  /*background: url("../img/products/party-shop-3.jpg") no-repeat center;*/
   background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-  background: url("../img/products/party-shop-5.jpg") no-repeat center;
+  /*background: url("../img/products/party-shop-5.jpg") no-repeat center;*/
   background-size: cover;
 }
 

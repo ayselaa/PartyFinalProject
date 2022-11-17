@@ -32,7 +32,8 @@
              @foreach (var pro in Model.ProductImage.Where(n => n.ProductId== Model.Id))
    {
           <div class="imggggggg">
-              <img class="mb-3" src="~/assets/uploads/images/@pro.Image.Url">
+
+          <img style="width: 97%; class="mb-3" src="~/assets/uploads/images/@pro.Image.Url">
           </div>
           <div class="pr-img-alt">
                             <img class="img-fluid ml-4" src="~/assets/img/products/party-shop-7.jpg">

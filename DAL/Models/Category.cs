@@ -1,5 +1,6 @@
 ﻿using DAL.Base;
 using DAL.Entity;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace DAL.Models
@@ -8,7 +9,7 @@ namespace DAL.Models
     {
         [Required]
         public string Name { get; set; }
-        public Service Service { get; set; }
+        public List<Product> Products { get; set; }
 
     }
 }
