@@ -54,6 +54,8 @@ namespace MyFinallyProje.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            var catagories = _context.Categories.ToList();
+            ViewBag.Categories = catagories;
             return View();
         }
 
@@ -62,7 +64,8 @@ namespace MyFinallyProje.Areas.Admin.Controllers
         public async Task<IActionResult> Create(Product product)
         {
             List<ProductImage> productImages = new List<ProductImage>();
-
+            var category = _context.Categories.FirstOrDefault(x => x.Id == product.Category.Id);
+            product.Category = category;
 
             if (product.ImageFile is null)
             {

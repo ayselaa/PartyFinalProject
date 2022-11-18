@@ -7,6 +7,7 @@ namespace Business.ViewModels
     {
         public List<ProductDetail> ProductDetails { get; set; }
         public List<Product> Products { get; set; }
-
+        public List<BlogDetail> BlogDetails { get; set; }
+        public List<Blog> Blogs { get; set; }
     }
 }

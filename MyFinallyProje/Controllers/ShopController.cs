@@ -18,6 +18,7 @@ namespace MyFinallyProje.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IProductService _productService;
+        private readonly IBlogService _blogService;
         private readonly IProductDetailService _productDetailService;
         private readonly UserManager<AppUser> _userManager;
 
@@ -26,12 +27,15 @@ namespace MyFinallyProje.Controllers
                               IProductService productService,
                               IProductDetailService productDetailService,
                               UserManager<AppUser> userManager
+,
+                              IBlogService blogService
 )
         {
             _context = context;
             _productService = productService;
             _productDetailService = productDetailService;
             _userManager = userManager;
+            _blogService = blogService;
         }
 
         public async Task<IActionResult> Index(int id)
@@ -39,17 +43,29 @@ namespace MyFinallyProje.Controllers
 
             ShopVM shopVm = new ShopVM();
 
-            shopVm.Products = await _productService.GetAll();
+            shopVm.Blogs = await _blogService.GetAll();
+
 
             List<Category> categories = _context.Categories.ToList();
-
+            ViewBag.Categories = categories;
 
             if (id != 0)
             {
-                shopVm.Products = shopVm.Products.Where(n => n.Category.Id == id).ToList();
+                var products = await _context.Products
+                                                .Where(p => p.Category.Id == id)
+                                                .Include(n => n.Category)
+                                                .Include(n => n.ProductImage)
+                                                .ThenInclude(n => n.Image)
+                                                .ToListAsync();
+                shopVm.Products =  products;
+
+            }
+            else
+            {
+                shopVm.Products = await _productService.GetAll();
             }
 
-            ViewBag.Categories = categories;
+            
 
             return View(shopVm);
 

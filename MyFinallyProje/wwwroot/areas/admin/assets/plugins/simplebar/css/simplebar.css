@@ -70,8 +70,7 @@
 .simplebar-track .simplebar-scrollbar.visible:before {
     /* When hovered, remove all transitions from drag handle */
     opacity: 0.0;
-    -webkit-transition: opacity 0.0 linear;
-    transition: opacity 0.0 linear;
+  
 }
 
 .simplebar-track.vertical {

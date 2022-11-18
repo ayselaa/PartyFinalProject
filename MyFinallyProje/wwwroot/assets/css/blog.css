@@ -5,7 +5,7 @@
   line-height: 35px;
   font-family: 'Belleza', sans-serif;
   text-decoration: none;
-  margin-left: 90px;
+  margin-left: 30px;
   margin-top: 30px;
 }
 
@@ -20,14 +20,23 @@
   left: 30px;
   z-index: 1;
   position: absolute;
-  margin-top: 73%;
+  margin-top: 66%;
 }
 
-.date {
-  display: block;
-  font-weight: 900;
-  font-size: 14px;
+.fordate-cla {
+    background: #e9204f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 79px;
 }
+
+
+    .fordate-cla .date {
+        display: block;
+        font-weight: 900;
+        font-size: 14px;
+    }
 
 .blog-hisse-content p {
   margin-top: 30px;
@@ -100,7 +109,6 @@ ul .classnamenoname li a {
 }
 
 .blog-right-gallery {
-  margin-top: 15px;
 }
 
 .categoriyalar-menu li {

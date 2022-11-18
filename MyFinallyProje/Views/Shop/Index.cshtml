@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-md-8 col-lg-6">
-                        <div class="header justify-content-center text-aligin-center">
+                    <div class="header justify-content-center" style="margin-right: 43%;">
                             <h3>Featured Product</h3>
                             <h2>Popular Products</h2>
                         </div>
@@ -56,7 +56,7 @@
                                         <a> <h3 class="product-title text-center">@product.Title</h3></a>
 
 
-                                        <h4 class="product-old-price text-danger">$90.99</h4>
+                                        <h4 class="product-old-price text-danger">$999.999</h4>
                                         <h4 class="product-price text-danger">$@product.Price</h4>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <aside class="widget widget-Categories mt-5 ">
+                    <aside class="widget widget-Categories mt-5 shadow-lg ">
 
                         <h3 class="widget-title mb-4 mt-3 text-center">Categories</h3>
                         <ul class="categoriyalar-menu">
@@ -77,6 +77,33 @@
                            }
                         </ul>
                     </aside>
+
+                    
+                    <aside class="widget widget-recent-post shadow-lg" style="background: #eeeeee;">
+                        <h3 class="basliqhisse mt-5" style="margin-left: 35px;">Recent posts</h3>
+                        <ul class="classnamenoname" style="padding: 15px;">
+                                @foreach (var ite in Model.Blogs)
+                                {
+                            <li class="blog-right-gallery">
+                                    @foreach (var blogImage in ite.BlogImage)
+                                    {
+                                        
+                                    <img class="img-fluid mt-4" src="~/assets/img/blogsekilleri/@blogImage.Image.Url">
+                                    }
+
+                                    <a asp-action="Detail" asp-controller="blog" asp-route-id="@ite.Id" class="rnf42nfr mt-4">@ite.Title</a>
+                            </li>
+                                    
+                                }
+
+                           
+
+                           
+
+
+                        </ul>
+                    </aside>
+
 
                 </div>
                 </div>

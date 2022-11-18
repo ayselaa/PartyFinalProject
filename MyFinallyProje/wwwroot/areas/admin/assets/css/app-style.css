@@ -82,9 +82,7 @@ select option {
    color: #fff !important;
 }
 
-::-ms-input-placeholder { 
-   color: #fff !important;
-}
+
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	  color: #ffffff;
@@ -341,7 +339,6 @@ hr {
 	box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
 	-webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -364,7 +361,6 @@ hr {
     border-bottom-left-radius: .25rem;
 	-webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -1646,7 +1642,7 @@ body.bg-theme15 {
 }
 
 .icon-preview-box div:hover{
-  background: rgba(255, 255, 255, 0.3);;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .error {
@@ -2999,7 +2995,7 @@ table.grid td {
   min-height: 22px;
   margin-top: 6px;
   margin-bottom: 6px 
-  padding-left: 0px; }
+ }
   [class*="icheck-material"] > label {
     padding-left: 29px !important;
     min-height: 22px;
@@ -3019,7 +3015,6 @@ table.grid td {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    -ms-appearance: none;
     display: block;
     width: 22px;
     height: 22px;
@@ -3035,7 +3030,6 @@ table.grid td {
       [class*="icheck-material"] > input:first-child:disabled + input[type="hidden"] + label::before {
         pointer-events: none;
         cursor: default;
-        filter: alpha(opacity=65);
         -webkit-box-shadow: none;
         box-shadow: none;
         opacity: .65; }

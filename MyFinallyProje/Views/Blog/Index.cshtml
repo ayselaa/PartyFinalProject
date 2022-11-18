@@ -23,7 +23,7 @@
         <div class="ttm-sidebar ttm-bgcolor-dark-grey break-991-colum ttm-sidebar-section classic-blog-section clearfix">
             <div class="container">
                 <div class="row ttm-sidebar-right">
-                    <div class="col-lg-9 content-area">
+                    <div class="col-12 content-area">
 
                         @foreach (var blog in Model.Blogs)
                        {
@@ -31,21 +31,23 @@
                                              @foreach (var  blogImage in blog.BlogImage)
                                             {
 
-                                            <div class="post-image ttm_single_image_wrapper">
+                                    <div class="post-image ttm_single_image_wrapper" style="
+                                 width: 90%;">
                                              <img class="img-fluid mt-5" src="~/assets/img/blogsekilleri/@blogImage.Image.Url">
                                                </div>
                                             }
 
                            <div class="blog-hisse-content">
-                                <div class="fordate-class">
+                                <div class="post-title ml-4  mt-5 headertext-first">
+                                        <div class="fordate-cla" style="display: inline-block;">
                                     <span class="date">1</span>
                                     <small class="month">OCT</small>
                                 </div>
-                                <div class="post-title ml-4  mt-5 headertext-first">
-                                    <h5><a href="blog-details.html">@blog.Title</a> </h5>
+                                        <h5 style="display: inline;"><a href="blog-details.html">@blog.Title</a> </h5>
                                 </div>
                                 <p class="pt-20">@blog.Description</p>
-                               <a asp-action="Detail" asp-controller="blog" asp-route-id="@blog.Id"><button type="button" class="mybtnhb btn-outline-dark">Read More</button></a> </div>
+                           <button type="button" class="mybtnhb btn-outline-dark">    <a asp-action="Detail" asp-controller="blog" asp-route-id="@blog.Id"> Read More</a></button>
+                                </div>
                           </article>
   
                        }
@@ -53,55 +55,6 @@
 
                     </div>
 
-                    <div class="col-lg-3 sidebar sidebar-right widget-area">
-                        <aside class="widget widget-recent-post">
-                            <h3 class="basliqhisse mt-5">Recent posts</h3>  
-                            <ul class="classnamenoname">
-
-                                @foreach (var it in Model.Blogs)
-                               {
-                                <li class="blog-right-gallery">
-                                    @foreach (var itimg in it.BlogImage)
-                                    {
-                                     <img class="img-fluid" src="~/assets/img/blogsekilleri/@itimg.Image.Url">
-
-                                    }
-                                   
-                                    <a asp-action="Detail" asp-controller="blog" asp-route-id="@it.Id" class="rnf42nfr">@it.Title</a>
-                                </li>
-                                   
-                               }
-
-                            </ul>
-                        </aside>
-                        <aside class="widget widget-Categories mt-5 ">
-
-                            <h3 class="widget-title mb-4 mt-3 text-center">Categories</h3>
-                            <ul class="categoriyalar-menu">
-
-                              
-                              @foreach (var categor in Model.Categories)
-                             {
-                                    <li><a>> &nbsp; @categor.Name</a></li>
-                             }
-
-                            </ul>
-                        </aside> 
-
-                        <aside class="umumi-teq-div">
-                            <h3 class="teq-basliq text-center mb-4 mt-3">Tags</h3>
-                            <div class="teq-siyahilari">
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Birthaday</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Concerts</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Decor</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Design</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">EventPlanning</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Party</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Venue</a>
-                            </div>
-                        </aside>
-
-                    </div>
                 </div>
             </div>
         </div>

@@ -27,10 +27,12 @@
                     @foreach (var blogImage in Model.BlogImage.Where(n => n.BlogId== Model.Id))
                    {
 
-                    <div class="col-lg-9 content-area">
+                    <div class="col-12 content-area">
                         <article class="post ttm-blog-classic">
 
-                            <div class="post-image ttm_single_image_wrapper">
+                                <div class="post-image ttm_single_image_wrapper" style="
+                                 width: 90%;">
+                                    
                                 <img class="img-fluid mt-5" src="~/assets/img/blogsekilleri/@blogImage.Image.Url">
                             </div>
 
@@ -42,7 +44,7 @@
                                 </div>
 
                                  <div class="post-title ml-4  mt-5 headertext-first">
-                                    <h5><a>@Model.Title </a></h5>
+                                    <h5><a style="margin-left:87px;">@Model.Title </a></h5>
                                 </div>
 
                                 <p class="pt-20 text-muted">@Model.Description</p>
@@ -55,57 +57,7 @@
                    }
 
                         <div class="col-lg-3 sidebar sidebar-right widget-area">
-                        <aside class="widget widget-recent-post">
-                            <h3 class="basliqhisse mt-5">Recent posts</h3>
-                            <ul class="classnamenoname">
 
-                                <li class="blog-right-gallery">
-                                    <a href="single-blog.html"><img src="~/assets/img/gallery/alexander-popov-hTv8aaPziOQ-unsplash.jpg" alt="blog-img"></a>
-                                    <a href="single-blog.html" class="rnf42nfr">Best Halloween Party Ideas</a>
-                                </li>
-
-                                <li class="blog-right-gallery">
-                                    <a href="single-blog.html"><img src="~/assets/img/gallery/gallery-6.jpg" alt="blog-img"></a>
-                                    <a href="single-blog.html" class="rnf42nfr">5 Steps To Planning A Sweet Party</a>
-                                </li>
-
-                                <li class="blog-right-gallery">
-                                    <a href="single-blog.html"><img src="~/assets/img/gallery/gallery-5.jpeg" alt="blog-img"></a>
-                                    <a href="single-blog.html" class="rnf42nfr">How to Find the Perfect Event Venue</a>
-                                </li>
-
-                                <li class="blog-right-gallery">
-                                    <a href="single-blog.html"><img src="~/assets/img/gallery/gallery-4.jpg" alt="blog-img"></a>
-                                    <a href="single-blog.html" class="rnf42nfr">How Your Events Can Make An Impact</a>
-                                </li>
-
-                            </ul>
-                        </aside>
-                        <aside class="widget widget-Categories mt-5 ">
-                            <h3 class="widget-title mb-4 mt-3 text-center">Categories</h3>
-                            <ul class="categoriyalar-menu">
-                                <li><a href="#">> &nbsp; Dj Party</a></li>
-                                <li><a href="#">> &nbsp; Event Tips</a></li>
-                                <li><a href="#">>  &nbsp;90`s Party</a></li>
-                                <li><a href="#">> &nbsp; Masquerade Ball</a></li>
-                                <li><a href="#">>  &nbsp;MICE Events</a></li>
-                                <li><a href="#">>  &nbsp;Uncategorized</a></li>
-                                <li><a href="#">>  &nbsp;Costume Party</a></li>
-                            </ul>
-                        </aside> 
-
-                        <aside class="umumi-teq-div">
-                            <h3 class="teq-basliq text-center mb-5 mt-3">Tags</h3>
-                            <div class="teq-siyahilari">
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Birthaday</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Concerts</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Decor</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Design</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">EventPlanning</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Party</a>
-                                <a href="#" class="tag-cloud-link btn-outline-dark">Venue</a>
-                            </div>
-                        </aside>
                     </div>
                 </div>
             </div>
